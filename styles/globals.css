@@ -1,8 +1,16 @@
+@import "phantom-sans.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html.dark {
-    color: #ffffff;
-    background-color: #000000;
+.font-phantom-sans {
+    font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, sans-serif;
 }
+
+@supports (-webkit-touch-callout: none) {
+    .h-screen {
+      height: -webkit-fill-available;
+    }
+  }
