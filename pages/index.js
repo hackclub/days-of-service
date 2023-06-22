@@ -6,9 +6,15 @@ export default function Home() {
     <>
       <HeadObject />
       <main className='min-h-screen min-w-screen flex flex-row justify-between font-phantom-sans'>
-        <div className='flex flex-col gap-5 w-[40vw] max-h-screen overflow-scroll'>
+        <div className='flex flex-col gap-5 w-[40vw] max-h-screen overflow-scroll-y'>
           <section className='flex flex-col justify-end content-end py-10 px-10'>
             <h1 className='font-bold text-5xl'><span className='text-[#ec3750]'>Hack Club</span><br />Days of Service</h1>
+          </section>
+          <section className='px-10 flex flex-col gap-2'>
+            <h2 className='text-lg text-[#ec3750]'>What is Hack Club?</h2>
+            <p className='text-lg'>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit\ amet. Lorem ipsum dolor sit amet.</p>
+            <p className='text-lg'>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dr sit amet.</p>
+            <p className='text-lg'>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
           </section>
           <section className='px-10 flex flex-col gap-2'>
             <h2 className='text-lg text-[#ec3750]'>Goal and Mission</h2>
@@ -37,9 +43,9 @@ export default function Home() {
             </div>
           </section>
         </div>
-        <div className='flex flex-col w-[59vw] max-h-screen overflow-scroll py-20'>
+        <div className='flex flex-col w-[59vw] max-h-screen overflow-scroll-y py-20'>
           <section className='flex flex-col gap-2 min-h-[50vh]'>
-            <h2 className='text-lg'>Events</h2>
+            <h2 className='text-lg'>Past Events</h2>
             <Events />
           </section>
         </div>
