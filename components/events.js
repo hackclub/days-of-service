@@ -7,6 +7,14 @@ const events = [
         logo: "https://cloud-3b48xagar-hack-club-bot.vercel.app/0horizon_logo.png",
         github_link: "https://github.com/hackclub/horizon",
         description: "Our first ever day of service hackathon in collaboration with the Girl Scouts of Greater New York.",
+        photos: [
+            "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
+            "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
+            "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
+            "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
+            "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
+            "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
+        ],
     },
     {
         name: "Alpine",
@@ -14,13 +22,14 @@ const events = [
         logo: "https://cloud-7zoxm80sm-hack-club-bot.vercel.app/0img_6658.jpg",
         github_link: "https://github.com/hackclub/alpine",
         description: "Our first ever day of service hackathon in collaboration with the Girl Scouts of Greater New York.",
+        photos: [],
     },
 ]
 
 export default function Events () {
     return (
         <div className="flex flex-col gap-2 mr-5">
-            {events.map(({name, location, logo, github_link, description}) => (
+            {events.map(({name, location, logo, github_link, description, photos}) => (
                 <div key={name} className="flex flex-col justify-start items-start h-fit w-full border border-gray-400 rounded-lg p-4">
                     <img className="w-1/3" src={logo} alt={`Logo for ${name}`} />
                     <p className="text-lg italic">{location}</p>
@@ -31,14 +40,11 @@ export default function Events () {
                         <path fillRule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clipRule="evenodd" />
                     </svg>
                     </a>
-                    <Marquee velocity={10}>
-                        <img className="mr-2 w-[200px] h-full object-contain" src="https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg"/>
-                        <img className="mr-2 w-[200px] h-full object-contain" src="https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg"/>
-                        <img className="mr-2 w-[200px] h-full object-contain" src="https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg"/>
-                        <img className="mr-2 w-[200px] h-full object-contain" src="https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg"/>
-                        <img className="mr-2 w-[200px] h-full object-contain" src="https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg"/>
-                        <img className="mr-2 w-[200px] h-full object-contain" src="https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg"/>
-                    </Marquee>
+                    {photos.length > 0 ? <Marquee velocity={10}>
+                        {photos.map((photo) => (
+                            <img key={photo} className="mr-2 w-[200px] h-full object-contain" src={photo} />
+                        ))}
+                    </Marquee> : ""}
                 </div>
             ))}
         </div>
