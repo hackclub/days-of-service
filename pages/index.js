@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <HeadObject />
       <main className='min-h-screen min-w-screen flex flex-row justify-between font-phantom-sans'>
-        <div className='flex flex-col gap-5 w-[40vw] max-h-screen overflow-y-scroll'>
+        <div className='flex flex-col gap-5 w-[40vw] max-h-screen overflow-y-scroll bg-[#ec3750] bg-opacity-10'>
           <section className='flex flex-col justify-end content-end py-10 px-10'>
             <h1 className='font-bold text-5xl'><span className='text-[#ec3750]'>Hack Club</span><br />Days of Service</h1>
           </section>
