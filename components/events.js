@@ -6,7 +6,7 @@ const events = [
         location: "New York City, New York",
         logo: "https://cloud-3b48xagar-hack-club-bot.vercel.app/0horizon_logo.png",
         github_link: "https://github.com/hackclub/horizon",
-        description: "Our first ever day of service hackathon in collaboration with the Girl Scouts of Greater New York.",
+        description: "We hosted our first-ever day of service hackathon in collaboration with the Girl Scouts of Greater New York. We had the privilege of serving 57 girls from all five boroughs during this fantastic one-day event.",
         photos: [
             "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
             "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
@@ -15,6 +15,7 @@ const events = [
             "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
             "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
         ],
+        photocreds: "KMM Photography"
     },
     {
         name: "Alpine",
@@ -23,13 +24,14 @@ const events = [
         github_link: "https://github.com/hackclub/alpine",
         description: "Our first ever day of service hackathon in collaboration with the Girl Scouts of Greater New York.",
         photos: [],
+        photocreds: ""
     },
 ]
 
 export default function Events () {
     return (
         <div className="flex flex-col gap-2 mr-5">
-            {events.map(({name, location, logo, github_link, description, photos}) => (
+            {events.map(({name, location, logo, github_link, description, photos, photocreds}) => (
                 <div key={name} className="flex flex-col justify-start items-start h-fit w-full border border-gray-400 rounded-lg p-4">
                     <img className="w-1/3" src={logo} alt={`Logo for ${name}`} />
                     <p className="text-lg italic">{location}</p>
@@ -45,6 +47,7 @@ export default function Events () {
                             <img key={photo} className="mr-2 w-[200px] h-full object-contain" src={photo} />
                         ))}
                     </Marquee> : ""}
+                    {photocreds.length > 0 ? <p className="text-sm italic">Photo credits: {photocreds}</p> : ""}
                 </div>
             ))}
         </div>
