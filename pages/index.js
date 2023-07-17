@@ -30,7 +30,7 @@ export default function Home() {
           <section className='px-10 flex flex-col gap-2'>
             <h2 className='text-lg text-[#ec3750]'>How’s this different from a regular hackathon?</h2>
             <p className='text-lg'>The intention of the hackathon is to help other teenagers build their first project with code. To achieve that, the majority of guests will come through a nonprofit youth partner, like Girl Scouts of Boys and Girls Club– that specifically serves communities of less opportunity. And you'll be responsible for creating content/workshops at the beginner level for them and helping them ship their first project.</p>
-            <p className='text-lg'>Hack Club supports Days of Service by offering close personal support to organizers, workshops, introductions as well as grants. We help you go from opening your repo to the closing ceremony! Hack Club also offers funding for travel stipends and event costs. Depending on the amount of attendees at the event the amount of mentors and people flown in will vary. To help support and make the event successful, Hack Club offers tons of documentation about past events.</p>
+            <p className='text-lg'>Hack Club supports Days of Service by offering close personal support to organizers, workshops, introductions, and grants. We help guide you from opening your repository to the closing ceremony. Additionally, Hack Club provides funding for travel stipends and event costs. The number of mentors and people flown in varies depending on the number of attendees at the event. To ensure the event's success, Hack Club offers abundant documentation about past events.</p>
           </section>
 
           <section className='px-10 flex flex-col gap-2'>
