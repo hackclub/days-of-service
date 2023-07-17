@@ -6,7 +6,7 @@ const events = [
         location: "New York City, New York",
         logo: "https://cloud-3b48xagar-hack-club-bot.vercel.app/0horizon_logo.png",
         github_link: "https://github.com/hackclub/horizon",
-        description: "We hosted our first-ever day of service hackathon in collaboration with the Girl Scouts of Greater New York. We had the privilege of serving 57 girls from all five boroughs during this fantastic one-day event.",
+        description: "In March 2023, Belle, 18 and Abby 16 hosted Horizon in NYC kicking off our partnership with the Girl Scouts.They ran a series of workshops and coded all day Saturday with 37 Girl Scouts from NYC. In the evening, they hosted a dinner with 10 professional female tech leaders. Over brunch Sunday, they recapped and planned for another Day of Service in a new city!",
         photos: [
             "https://cloud-dvw57ctip-hack-club-bot.vercel.app/0kmm_6066.jpg",
             "https://cloud-dvw57ctip-hack-club-bot.vercel.app/1kmm_6079.jpg",
@@ -46,8 +46,14 @@ const events = [
         location: "Salt Lake City, Utah",
         logo: "https://cloud-7zoxm80sm-hack-club-bot.vercel.app/0img_6658.jpg",
         github_link: "https://github.com/hackclub/alpine",
-        description: "Our first ever day of service hackathon in collaboration with the Girl Scouts of Greater New York.",
-        photos: [],
+        description: "Jasmina, 18, hosted a hackathon, Alpine, in Salt Lake City. She wrote emails to local businesses to get office space for her event, and wrote emails to the Girl Scouts and youth groups so they’d bring guests. She and her co-organizers made workshops to run at the event. All of this you can see and borrow for your event on the Github.",
+        photos: [
+            "https://cloud-g5rq0ijxx-hack-club-bot.vercel.app/0img_0067.jpeg",
+            "https://cloud-g5rq0ijxx-hack-club-bot.vercel.app/1img_0045.jpeg",
+            "https://cloud-g5rq0ijxx-hack-club-bot.vercel.app/2img_0040.jpeg",
+            "https://cloud-g5rq0ijxx-hack-club-bot.vercel.app/3img_0038.jpeg",
+            "https://cloud-g5rq0ijxx-hack-club-bot.vercel.app/4img_0030.jpeg",
+        ],
         photocreds: ""
     },
 ]
