@@ -21,7 +21,7 @@ export default function Home() {
           </section>
           <section className='px-4 lg:px-10 flex flex-col gap-2'>
             <h2 className='text-lg text-[#ec3750]'>What is a Day of Service?</h2>
-            <ul className='list-disc'>
+            <ul className='list-disc list-inside'>
             <li className='text-lg'>A one-day hackathon in collaboration organized by a group of Hack Clubbers in collaboration with an organization in your local area that serves low-income, minority, active airforce families communities. </li>
             <li className='text-lg'>You’ll have the chance to train your organizing and technical skills, with the support of highly experienced hackathon organizers.</li>
             <li className='text-lg'>You’ll hold an event that exposes a new community/group to coding while collaborating on a fun project for the day.</li>
@@ -34,7 +34,7 @@ export default function Home() {
           </section>
           <section className='px-10 flex flex-col gap-2'>
   <h2 className='text-lg text-[#ec3750]'>The basics:</h2>
-  <ol className='list-decimal pl-6'>
+  <ul className='pl-6 list-decimal'>
     <li className='text-lg'>Duration: Lasting a minimum of 8 hours.</li>
     <li className='text-lg'>Leadership: Led by a Hack Club member who will act as the event's coordinator.</li>
     <li className='text-lg'>Team Management: The coordinator will oversee a group of other Hack Club members specifically assembled for the event.</li>
@@ -42,7 +42,7 @@ export default function Home() {
     <li className='text-lg'>Grant Acquisition: The organizers will secure a grant to support the event's expenses.</li>
     <li className='text-lg'>Preferred Partner Collaboration: The event will be conducted in partnership with a preferred partner organization such as Girl Scouts, Boy Scouts, 4H, Boys & Girls Club.</li>
     <li className='text-lg'>Participant Minimum: At least 20 high schoolers should be present at each event.</li>
-  </ol>
+  </ul>
 </section>
           <section className='px-10 flex flex-col gap-2'>
             <h2 className='text-lg text-[#ec3750]'>What is Hack Club?</h2>

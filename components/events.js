@@ -6,7 +6,7 @@ const events = [
         location: "New York City, New York",
         logo: "https://cloud-3b48xagar-hack-club-bot.vercel.app/0horizon_logo.png",
         github_link: "https://github.com/hackclub/horizon",
-        description: "In March 2023, Belle, 18 and Abby 16 hosted Horizon in NYC kicking off our partnership with the Girl Scouts.They ran a series of workshops and coded all day Saturday with 37 Girl Scouts from NYC. In the evening, they hosted a dinner with 10 professional female tech leaders. Over brunch Sunday, they recapped and planned for another Day of Service in a new city!",
+        description: "In March 2023, Belle, 18, and Abby, 16, hosted Horizon in NYC kicking off our partnership with the Girl Scouts. They ran a series of workshops and coded all day Saturday with 37 Girl Scouts from NYC. In the evening, they hosted a dinner with 10 professional female tech leaders. Over brunch Sunday, they recapped and planned for another Day of Service in a new city.",
         photos: [
             "https://cloud-l02gvh3rw-hack-club-bot.vercel.app/0horizonhighlights1.png",
             "https://cloud-l02gvh3rw-hack-club-bot.vercel.app/1horizonhighlights2.png",
@@ -33,7 +33,7 @@ const events = [
         location: "Salt Lake City, Utah",
         logo: "https://cloud-7zoxm80sm-hack-club-bot.vercel.app/0img_6658.jpg",
         github_link: "https://github.com/hackclub/alpine",
-        description: "Jasmina, 18, hosted a hackathon, Alpine, in Salt Lake City. She wrote emails to local businesses to get office space for her event, and wrote emails to the Girl Scouts and youth groups so they’d bring guests. She and her co-organizers made workshops to run at the event. All of this you can see and borrow for your event on the Github.",
+        description: "Jasmina, 18, hosted a hackathon, Alpine, in Salt Lake City. She wrote emails to local businesses to get office space for her event, and wrote emails to the Girl Scouts and youth groups so they would bring guests. She and her co-organizers made workshops to run at the event. All of this is open-sourced on the link below.",
         photos: [
             "https://cloud-g5rq0ijxx-hack-club-bot.vercel.app/0img_0067.jpeg",
             "https://cloud-g5rq0ijxx-hack-club-bot.vercel.app/1img_0045.jpeg",
@@ -64,7 +64,7 @@ export default function Events () {
                             <img key={photo} className="mr-2 w-[200px] h-full object-contain" src={photo} />
                         ))}
                     </Marquee> : ""}
-                    {photocreds.length > 0 ? <p className="text-sm italic">Photo credits: {photocreds}</p> : ""}
+                    {photocreds.length > 0 ? <p className="text-sm italic">Photo credits: {photocreds}</p> : null}
                 </div>
             ))}
         </div>
