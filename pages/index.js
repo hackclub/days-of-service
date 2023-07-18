@@ -55,7 +55,7 @@ export default function Home() {
             <h2 className='text-lg text-[#ec3750]'>Partners</h2>
             <img className="w-1/3" src="https://www.girlscouts.org/content/dam/gsusa/images/header/Mainnavlogo.png" />
           </section> */}
-          <section className='px-10 flex flex-col gap-2'>
+          {/* <section className='px-10 flex flex-col gap-2'>
             <h2 className='text-lg text-[#ec3750]'>Quotes</h2>
             <div className='flex flex-row gap-4'>
               <img className="w-20 h-20 rounded-full" src="https://github.com/sarthaktexas.png" />
@@ -64,7 +64,7 @@ export default function Home() {
                 <h3 className=''>Sarthak Mohanty, Hack Clubber</h3>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
         <div className='flex flex-col w-[59vw] max-h-screen overflow-y-scroll py-20'>
           <section className='flex flex-col gap-2 min-h-[50vh]'>
