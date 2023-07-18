@@ -14,3 +14,19 @@
       height: -webkit-fill-available;
     }
   }
+
+.wrapper {
+    position: relative;
+}
+.wrapper:before, #wrapper:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50px; /* Height of the effect */
+}
+.wrapper:after {
+    bottom: 0;
+    /* Use your background color, assuming white: */
+    background-image: linear-gradient(to top, rgba(251,236,238,1), rgba(251,236,238,0));
+}
