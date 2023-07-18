@@ -6,30 +6,54 @@ const events = [
         location: "New York City, New York",
         logo: "https://cloud-3b48xagar-hack-club-bot.vercel.app/0horizon_logo.png",
         github_link: "https://github.com/hackclub/horizon",
-        description: "Our first ever day of service hackathon in collaboration with the Girl Scouts of Greater New York.",
+        description: "In March 2023, Belle, 18 and Abby 16 hosted Horizon in NYC kicking off our partnership with the Girl Scouts.They ran a series of workshops and coded all day Saturday with 37 Girl Scouts from NYC. In the evening, they hosted a dinner with 10 professional female tech leaders. Over brunch Sunday, they recapped and planned for another Day of Service in a new city!",
         photos: [
-            "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
-            "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
-            "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
-            "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
-            "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
-            "https://cloud-kpqzgy9pn-hack-club-bot.vercel.app/0kmm_6259.jpeg",
+            "https://cloud-l02gvh3rw-hack-club-bot.vercel.app/0horizonhighlights1.png",
+            "https://cloud-l02gvh3rw-hack-club-bot.vercel.app/1horizonhighlights2.png",
+            "https://cloud-l02gvh3rw-hack-club-bot.vercel.app/2horizonhighlights3.png",
+            "https://cloud-l02gvh3rw-hack-club-bot.vercel.app/3horizonhighlights4.png",
+            "https://cloud-l02gvh3rw-hack-club-bot.vercel.app/4horizonhighlights5.png",
+            "https://cloud-l02gvh3rw-hack-club-bot.vercel.app/5horizonhighlights6.png",
+            "https://cloud-l02gvh3rw-hack-club-bot.vercel.app/6horizonhighlights7.png",
+            "https://cloud-l02gvh3rw-hack-club-bot.vercel.app/7horizonhighlights8.png",
+            "https://cloud-l02gvh3rw-hack-club-bot.vercel.app/8horizonhighlights9.png",
+            "https://cloud-l02gvh3rw-hack-club-bot.vercel.app/9horizonhighlights10.png",
+            "https://cloud-bkn20hfh7-hack-club-bot.vercel.app/0horizonhighlights11.png",
+            "https://cloud-bkn20hfh7-hack-club-bot.vercel.app/1horizonhighlights12.png",
+            "https://cloud-bkn20hfh7-hack-club-bot.vercel.app/2horizonhighlights13.png",
+            "https://cloud-bkn20hfh7-hack-club-bot.vercel.app/3horizonhighlights14.png",
+            "https://cloud-bkn20hfh7-hack-club-bot.vercel.app/4horizonhighlights15.png",
+            "https://cloud-bkn20hfh7-hack-club-bot.vercel.app/5horizonhighlights16.png",
+            "https://cloud-bkn20hfh7-hack-club-bot.vercel.app/6horizonhighlights17.png",
         ],
+        photocreds: "KMM Photography"
     },
     {
         name: "Alpine",
         location: "Salt Lake City, Utah",
         logo: "https://cloud-7zoxm80sm-hack-club-bot.vercel.app/0img_6658.jpg",
         github_link: "https://github.com/hackclub/alpine",
-        description: "Our first ever day of service hackathon in collaboration with the Girl Scouts of Greater New York.",
-        photos: [],
+        description: "Jasmina, 18, hosted a hackathon, Alpine, in Salt Lake City. She wrote emails to local businesses to get office space for her event, and wrote emails to the Girl Scouts and youth groups so they’d bring guests. She and her co-organizers made workshops to run at the event. All of this you can see and borrow for your event on the Github.",
+        photos: [
+            "https://cloud-g5rq0ijxx-hack-club-bot.vercel.app/0img_0067.jpeg",
+            "https://cloud-g5rq0ijxx-hack-club-bot.vercel.app/1img_0045.jpeg",
+            "https://cloud-g5rq0ijxx-hack-club-bot.vercel.app/2img_0040.jpeg",
+            "https://cloud-g5rq0ijxx-hack-club-bot.vercel.app/3img_0038.jpeg",
+            "https://cloud-g5rq0ijxx-hack-club-bot.vercel.app/4img_0030.jpeg",
+        ],
+        photocreds: ""
     },
 ]
 
 export default function Events () {
     return (
+<<<<<<< HEAD
         <div className="flex flex-col gap-2 lg:pr-5">
             {events.map(({name, location, logo, github_link, description, photos}) => (
+=======
+        <div className="flex flex-col gap-2 mr-5">
+            {events.map(({name, location, logo, github_link, description, photos, photocreds}) => (
+>>>>>>> 2d3a24b7764293322a6383ad6196ada1ddb70626
                 <div key={name} className="flex flex-col justify-start items-start h-fit w-full border border-gray-400 rounded-lg p-4">
                     <img className="w-1/3" src={logo} alt={`Logo for ${name}`} />
                     <p className="text-lg italic">{location}</p>
@@ -45,6 +69,7 @@ export default function Events () {
                             <img key={photo} className="mr-2 w-[200px] h-full object-contain" src={photo} />
                         ))}
                     </Marquee> : ""}
+                    {photocreds.length > 0 ? <p className="text-sm italic">Photo credits: {photocreds}</p> : ""}
                 </div>
             ))}
         </div>
