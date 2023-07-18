@@ -28,7 +28,7 @@ const events = [
 
 export default function Events () {
     return (
-        <div className="flex flex-col gap-2 mr-5">
+        <div className="flex flex-col gap-2 lg:pr-5">
             {events.map(({name, location, logo, github_link, description, photos}) => (
                 <div key={name} className="flex flex-col justify-start items-start h-fit w-full border border-gray-400 rounded-lg p-4">
                     <img className="w-1/3" src={logo} alt={`Logo for ${name}`} />
