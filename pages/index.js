@@ -1,11 +1,16 @@
-import HeadObject from "../components/head";
+import Meta from "@hackclub/meta"
 import Events from "../components/events";
-import Info from "../components/info";
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <>
-      <HeadObject />
+      <Meta
+        as={Head} // component to wrap tags in, defaults to React.Fragment
+        name="Hack Club" // site name
+        title="Day Of Service" // page title
+        description="All the info about Hack Club's Day of Service initiative" // page description
+      />
       <main className="lg:min-h-screen lg:min-w-screen flex flex-col lg:flex-row justify-between font-phantom-sans">
         <div className="lg:wrapper flex flex-col gap-5 py-10 lg:w-[40vw] lg:max-h-screen lg:overflow-y-scroll bg-[#ec3750] bg-opacity-10">
           <section className="px-4 lg:px-10 flex flex-col justify-end content-end">
