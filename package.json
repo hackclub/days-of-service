@@ -10,7 +10,7 @@
   "dependencies": {
     "@hackclub/meta": "^1.1.32",
     "framer-motion": "^8.4.3",
-    "next": "^13.1.6",
+    "next": "^13.4.12",
     "next-themes": "^0.2.1",
     "react": "^18.0.0",
     "react-dom": "^18.2.0",
