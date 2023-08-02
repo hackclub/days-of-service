@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@hackclub/meta": "^1.1.32",
+    "@hackclub/meta": "^1.1.33",
     "framer-motion": "^10.15.0",
     "next": "^13.4.12",
     "next-themes": "^0.2.1",
