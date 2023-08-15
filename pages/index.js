@@ -51,7 +51,7 @@ export default function Home() {
               <li className="text-lg">
                 A one-day hackathon in collaboration organized by a group of
                 Hack Clubbers in collaboration with an organization in your
-                local area that serves low-income, minority, active airforce
+                local area that serves low-income, minority, active Air Force
                 families communities.{" "}
               </li>
               <li className="text-lg">
