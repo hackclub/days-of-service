@@ -43,6 +43,21 @@ const events = [
         ],
         photocreds: ""
     },
+    {
+        name: "Spark",
+        location: "San Francisco, California",
+        logo: "https://uc1b07a3930d421e81b8936c51e7.previews.dropboxusercontent.com/p/thumb/ACBj07hP-QmCJGQmlfCtnZepM7DLe9W0QtWHxCA6FWulH8Nrkka1NKu6Z_62zm1r8zg4943IRO_yicLdkpUqKlWA4XubBqUJu9PkOqUebxkw9C7e_Iz9CiGf7B1oVrF1O1sCXRdm4ON5SF4ZqPTOhpi0oXDzXB-xuyAIaDP7SZRdSMNkGclF-ElUHaW7DB8uwx2y1OTbvQNsJ_V3mmN6fn9iJpZPuYgdZY6JATnbe29CivV3U3QMiE5M0a-ghQEXkG2H0HMn57haEk9ps4E23d6nGbKQ9MdhJ7JJhMQY56vJQV6a7IGs0iMyhAnfXNm-OqMgfHXhvZj60CNMxkZIwxbvYS9w4cyibAsS7Sovq4_LnazlsmV5fmaxyXhU3w7cGII/p.png",
+        github_link: "https://github.com/hackclub/spark",
+        description: "Maggie, 18, and Kayley, 20, hosted Spark at Sentry’s office in San Francisco. With the help of their co-organizers, they ran a series of workshops—from building PCBs to Poker game strategies—and ran both a day-track and overnight-track for over 50 attendees. Prior to the hackathon, they organized a dinner with several tech professionals from the Bay Area hosted by Rebecca Lynn.",
+        photos: [
+            "https://lh3.googleusercontent.com/pw/AIL4fc-aCTVy-R72KpKQbbQJFD5lEWcz3TFlcDyTqNMC3j-EXa8Rce3f3JuJvoPL9mN9VZBsxmIUXOb-Sv0jTcja07IpTv0ibyUVoxR6x3VJowR2Jj9K3wwyGsYTVe0tryVnLJEUC2eVBqUF_TMNcJn0rB-j=w1506-h1001-s-no?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AIL4fc8UIIKEH9f7Yr1EiovFNvgtVNeKJF-6gxq0R3xdracJf6Mt8ma8zzJGWC5D71V6J3FVHu0FQsrF3rQWbbKflfaC0myi89e9sZkmYqVnTljGjUpbkmctvaCcZMeaHGQoeWDC14XH0XyUL_Lr6IbRbBJR=w1502-h1001-s-no?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AIL4fc_I9em25m9YTW8Uy56-uGJrDppLuqUwXFRMap59cQ5-qloLWstjqmOXBMR_9__bXCfcvrrb9LFWNuA5Hvu_08yXne14mWCtKp_XnS5-HpGqdYYP4Tpjrg0OEQnYBY8H0M8_3DRfs-NRZ1_be98JBv9A=w1502-h1001-s-no?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AIL4fc-VDde7xTQZz4nawIegiHA6k-5C_jb3mIxk7ls5hHCexO40BvPfxFGYw4u38QiRo2TtJWs2Pft_jga3SjAFAAXZhUycyHtvpKvGLqqBGsH9LqHZIDoRxOChd0u44fq4-amMO0PDHH_EkzjdNtZZWM3u=w1502-h1001-s-no?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AIL4fc8q5tPjayN0hav0YLb5LIfJ2Q29DesW74Gy6okpHL6fIqVIcAk6jqT7GONNaU2nknThCnTzlp0zikeqtT2r6Wx8WIO_Fo1v6gqpN6177c9gD0htYcUzBEnj-3qTZd-Sw-hXPKdaLXi386g4wqCGDS8e=w1502-h1001-s-no?authuser=0",
+        ],
+        photocreds: "Angela Magtoto"
+    },
 ]
 
 export default function Events () {
