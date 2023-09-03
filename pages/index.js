@@ -104,7 +104,7 @@ export default function Home() {
                 Hack Club members specifically assembled for the event.
               </li>
               <li className="text-lg">
-                Financial Management: The event will run on Hack Club Bank.
+                Financial Management: The event will run on HCB.
               </li>
               <li className="text-lg">
                 Grant Acquisition: The organizers will secure a grant to support
