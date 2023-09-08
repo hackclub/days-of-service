@@ -46,7 +46,7 @@ const events = [
     {
         name: "Spark",
         location: "San Francisco, California",
-        logo: "https://uc1b07a3930d421e81b8936c51e7.previews.dropboxusercontent.com/p/thumb/ACBj07hP-QmCJGQmlfCtnZepM7DLe9W0QtWHxCA6FWulH8Nrkka1NKu6Z_62zm1r8zg4943IRO_yicLdkpUqKlWA4XubBqUJu9PkOqUebxkw9C7e_Iz9CiGf7B1oVrF1O1sCXRdm4ON5SF4ZqPTOhpi0oXDzXB-xuyAIaDP7SZRdSMNkGclF-ElUHaW7DB8uwx2y1OTbvQNsJ_V3mmN6fn9iJpZPuYgdZY6JATnbe29CivV3U3QMiE5M0a-ghQEXkG2H0HMn57haEk9ps4E23d6nGbKQ9MdhJ7JJhMQY56vJQV6a7IGs0iMyhAnfXNm-OqMgfHXhvZj60CNMxkZIwxbvYS9w4cyibAsS7Sovq4_LnazlsmV5fmaxyXhU3w7cGII/p.png",
+        logo: "https://cloud-g8aj80b0m-hack-club-bot.vercel.app/0image.png",
         github_link: "https://github.com/hackclub/spark",
         description: "Maggie, 18, and Kayley, 20, hosted Spark at Sentry’s office in San Francisco. With the help of their co-organizers, they ran a series of workshops—from building PCBs to Poker game strategies—and ran both a day-track and overnight-track for over 50 attendees. Prior to the hackathon, they organized a dinner with several tech professionals from the Bay Area hosted by Rebecca Lynn.",
         photos: [
