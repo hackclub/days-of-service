@@ -61,11 +61,14 @@ const events = [
     {
         name: "LoneStar",
         location: "San Antonio, Texas",
-        logo: "https://cloud-g8aj80b0m-hack-club-bot.vercel.app/0image.png",
+        logo: "https://drive.google.com/drive/u/7/folders/19xjJbwufU9kdGZEY0wHIdWKqY3DpDyYS",
         github_link: "https://github.com/hackclub/lonestar",
         description: "Lonestar was an 8-hour all-female/nonbinary hackathon from September 15th-17th organised by Aileen and Zoya, our two hack clubbers from Texas! “I had a lot of fun with Hack Club. In just the day that I worked, I learned the basics of making a website and I really loved working with y’all. This helped me on how I want to open people’s eyes on global warming.”  — Addie, a 7th grader from San Antonio",
         photos: [
             "https://cloud-tjfhn4z4i-hack-club-bot.vercel.app/0img_8675.jpg",
+            "https://drive.google.com/drive/u/7/folders/19xjJbwufU9kdGZEY0wHIdWKqY3DpDyYS",
+            "https://drive.google.com/drive/u/7/folders/19xjJbwufU9kdGZEY0wHIdWKqY3DpDyYS",
+            "https://drive.google.com/drive/u/7/folders/19xjJbwufU9kdGZEY0wHIdWKqY3DpDyYS",
         ],
         photocreds: "Sarthak Mohanty"
     },
