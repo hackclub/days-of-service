@@ -67,8 +67,6 @@ const events = [
         photos: [
             "https://cloud-tjfhn4z4i-hack-club-bot.vercel.app/0img_8675.jpg",
             "https://drive.google.com/drive/u/7/folders/19xjJbwufU9kdGZEY0wHIdWKqY3DpDyYS",
-            "https://drive.google.com/drive/u/7/folders/19xjJbwufU9kdGZEY0wHIdWKqY3DpDyYS",
-            "https://drive.google.com/drive/u/7/folders/19xjJbwufU9kdGZEY0wHIdWKqY3DpDyYS",
         ],
         photocreds: "Sarthak Mohanty"
     },
