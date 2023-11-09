@@ -72,6 +72,33 @@ const events = [
         ],
         photocreds: "Sarthak Mohanty"
     },
+    {
+        name: "Harvest",
+        location: "Burlington, Vermont",
+        logo: "https://cloud-zro60zgb3-hack-club-bot.vercel.app/0screenshot_20231001_190552_penup_2.jpg",
+        github_link: "https://github.com/hackclub/harvest",
+        description: "Harvest was a halloween themed social coding event in Burlington! Students got together to build their first website and games on Hack Club's Sprig engine and fulled themselves on halloween candy!",
+        photos: [
+            "https://cloud-6kau15kuf-hack-club-bot.vercel.app/01000022984.jpg",
+            "https://cloud-boy8x8s1q-hack-club-bot.vercel.app/0img_3131.jpg",
+            "https://cloud-5m1u8a9sd-hack-club-bot.vercel.app/0img_3145.jpg",
+            "https://cloud-hioa9ytzd-hack-club-bot.vercel.app/0img_6437.jpg",
+            "https://cloud-hioa9ytzd-hack-club-bot.vercel.app/0img_6437.jpg",
+        ],
+        photocreds: "Nila Palmo Ram, Christina Asquith, Faisal Sayed"
+    },
+    {
+        name: "Halo",
+        location: "Los Angeles, California",
+        logo: "https://cloud-daj2793hq-hack-club-bot.vercel.app/0screenshot_2023-11-09_at_5.05.33_pm.png",
+        github_link: "https://github.com/hackclub/halo",
+        description: "Lonestar was an 8-hour all-female/nonbinary hackathon from September 15th-17th organised by Aileen and Zoya, our two hack clubbers from Texas! “I had a lot of fun with Hack Club. In just the day that I worked, I learned the basics of making a website and I really loved working with y’all. This helped me on how I want to open people’s eyes on global warming.”  — Addie, a 7th grader from San Antonio",
+        photos: [
+            "https://cloud-o2nca6k8y-hack-club-bot.vercel.app/0img_3790.jpg",
+            "",
+        ],
+        photocreds: "Sarthak Mohanty"
+    },
 ]
 
 export default function Events () {
