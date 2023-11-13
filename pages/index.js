@@ -72,7 +72,7 @@ export default function Home() {
               The intention of the hackathon is to help other teenagers build
               their first project with code. To achieve that, the majority of
               guests will come through a nonprofit youth partner, like Girl
-              Scouts of Boys and Girls Club– that specifically serves
+              Scouts or Boys and Girls Club– that specifically serves
               communities of less opportunity. And you'll be responsible for
               creating content/workshops at the beginner level for them and
               helping them ship their first project.
