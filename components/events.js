@@ -75,7 +75,7 @@ const events = [
     {
         name: "Harvest",
         location: "Burlington, Vermont",
-        logo: "https://cloud-zro60zgb3-hack-club-bot.vercel.app/0screenshot_20231001_190552_penup_2.jpg",
+        logo: "https://cloud-8ln3q443h-hack-club-bot.vercel.app/0screenshot_20231001_190552_penup_2.jpg_10-18-56-737.jpg",
         github_link: "https://github.com/hackclub/harvest",
         description: "Harvest was a halloween themed social coding event in Burlington! Students got together to build their first website and games on Hack Club's Sprig engine and fulled themselves on halloween candy!",
         photos: [
@@ -83,21 +83,22 @@ const events = [
             "https://cloud-boy8x8s1q-hack-club-bot.vercel.app/0img_3131.jpg",
             "https://cloud-5m1u8a9sd-hack-club-bot.vercel.app/0img_3145.jpg",
             "https://cloud-hioa9ytzd-hack-club-bot.vercel.app/0img_6437.jpg",
-            "https://cloud-hioa9ytzd-hack-club-bot.vercel.app/0img_6437.jpg",
         ],
         photocreds: "Nila Palmo Ram, Christina Asquith, Faisal Sayed"
     },
     {
         name: "Halo",
         location: "Los Angeles, California",
-        logo: "https://cloud-daj2793hq-hack-club-bot.vercel.app/0screenshot_2023-11-09_at_5.05.33_pm.png",
+        logo: "https://cloud-efb6jycbn-hack-club-bot.vercel.app/0screenshot_2023-11-09_at_5.05.33_pm.png",
         github_link: "https://github.com/hackclub/halo",
-        description: "Lonestar was an 8-hour all-female/nonbinary hackathon from September 15th-17th organised by Aileen and Zoya, our two hack clubbers from Texas! “I had a lot of fun with Hack Club. In just the day that I worked, I learned the basics of making a website and I really loved working with y’all. This helped me on how I want to open people’s eyes on global warming.”  — Addie, a 7th grader from San Antonio",
+        description: "Halo was a day long coding event organised in partnership with the Girl Scoutf of Los Angeles! It took place in the Girl Scouts Innovation Centre with around 35 participants who spent the day learning to build a website using simple HTML, CSS and JavaScript or a video game on Hack Club's Sprig engine.",
         photos: [
             "https://cloud-o2nca6k8y-hack-club-bot.vercel.app/0img_3790.jpg",
-            "",
+            "https://cloud-mwimfemam-hack-club-bot.vercel.app/0c1005.00_36_32_00.still018.jpg",
+            "https://cloud-ws2l26p8c-hack-club-bot.vercel.app/0img_1666.jpg",
+            "https://cloud-ozhhfkpwn-hack-club-bot.vercel.app/0img_1709.jpg",
         ],
-        photocreds: "Sarthak Mohanty"
+        photocreds: "Dieter Schoening, Ava Shah"
     },
 ]
 
