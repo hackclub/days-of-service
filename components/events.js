@@ -80,10 +80,9 @@ const events = [
         github_link: "https://github.com/hackclub/harvest",
         description: "Harvest was a halloween themed social coding event in Burlington! Students got together to build their first website and games on Hack Club's Sprig engine and fulled themselves on halloween candy!",
         photos: [
-            "https://cloud-6kau15kuf-hack-club-bot.vercel.app/01000022984.jpg",
+            "https://cloud-9mgn4hcgb-hack-club-bot.vercel.app/01000022984.jpg",
             "https://cloud-boy8x8s1q-hack-club-bot.vercel.app/0img_3131.jpg",
             "https://cloud-5m1u8a9sd-hack-club-bot.vercel.app/0img_3145.jpg",
-            "https://cloud-hioa9ytzd-hack-club-bot.vercel.app/0img_6437.jpg",
         ],
         photocreds: "Nila Palmo Ram, Christina Asquith, Faisal Sayed"
     },
