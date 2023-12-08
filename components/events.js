@@ -67,7 +67,6 @@ const events = [
         photos: [
             "https://cloud-tjfhn4z4i-hack-club-bot.vercel.app/0img_8675.jpg",
             "https://cloud-cbhei54z2-hack-club-bot.vercel.app/020230916_093640.jpg",
-            "https://cloud-kjgtysj8p-hack-club-bot.vercel.app/0img_1726.jpg",
             "https://cloud-bvl31qfeu-hack-club-bot.vercel.app/020230916_121921.jpg",
         ],
         photocreds: "Sarthak Mohanty"
@@ -93,7 +92,7 @@ const events = [
         github_link: "https://github.com/hackclub/halo",
         description: "Halo was a day long coding event organised in partnership with the Girl Scouts of Los Angeles! It took place in the Girl Scouts Innovation Centre with around 35 participants who spent the day learning to build a website using simple HTML, CSS and JavaScript or a video game on Hack Club's Sprig engine.",
         photos: [
-            "https://cloud-o2nca6k8y-hack-club-bot.vercel.app/0img_3790.jpg",
+            "https://cloud-7eufhgdoa-hack-club-bot.vercel.app/0img_3790.jpg",
             "https://cloud-mwimfemam-hack-club-bot.vercel.app/0c1005.00_36_32_00.still018.jpg",
             "https://cloud-ws2l26p8c-hack-club-bot.vercel.app/0img_1666.jpg",
             "https://cloud-ozhhfkpwn-hack-club-bot.vercel.app/0img_1709.jpg",
