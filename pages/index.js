@@ -79,7 +79,7 @@ export default function Home() {
             </p>
             <p className="text-lg">
               Hack Club supports Days of Service by offering close personal
-              support to organizers, workshops, introductions, and grants. We
+              support to organizers, workshops and grants. We
               help guide you from opening your repository to the closing
               ceremony. Additionally, Hack Club provides funding for travel
               stipends and event costs. The number of mentors and people flown
