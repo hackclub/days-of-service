@@ -117,7 +117,7 @@ export default function Events () {
                     </svg>
                     </a>
                     {photos.length > 0 ? <Marquee velocity={10}>
-                        {photos.map((photo) => (
+                        {photos.map((photo) => ( 
                             <img key={photo} className="mr-2 w-[200px] h-full object-contain" src={photo} />
                         ))}
                     </Marquee> : ""}
