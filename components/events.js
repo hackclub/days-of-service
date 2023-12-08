@@ -91,7 +91,7 @@ const events = [
         location: "Los Angeles, California",
         logo: "https://cloud-efb6jycbn-hack-club-bot.vercel.app/0screenshot_2023-11-09_at_5.05.33_pm.png",
         github_link: "https://github.com/hackclub/halo",
-        description: "Halo was a day long coding event organised in partnership with the Girl Scoutf of Los Angeles! It took place in the Girl Scouts Innovation Centre with around 35 participants who spent the day learning to build a website using simple HTML, CSS and JavaScript or a video game on Hack Club's Sprig engine.",
+        description: "Halo was a day long coding event organised in partnership with the Girl Scouts of Los Angeles! It took place in the Girl Scouts Innovation Centre with around 35 participants who spent the day learning to build a website using simple HTML, CSS and JavaScript or a video game on Hack Club's Sprig engine.",
         photos: [
             "https://cloud-o2nca6k8y-hack-club-bot.vercel.app/0img_3790.jpg",
             "https://cloud-mwimfemam-hack-club-bot.vercel.app/0c1005.00_36_32_00.still018.jpg",
