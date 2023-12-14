@@ -23,7 +23,7 @@ export default function Home() {
           <section className="px-4 lg:px-10 flex flex-col gap-2">
             <h2 className="text-lg text-[#ec3750]">What is Hack Club?</h2>
             <p className="text-lg">
-              Hack Club is the largest non profit of over 26,350 teen hackers
+              Hack Club is the largest non profit of over 28,000 teen hackers
               from around the world who code together. Check out our projects{" "}
               <a
                 className="underline decoration-[#ec3750] hover:text-[#ec3750]"
