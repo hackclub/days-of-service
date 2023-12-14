@@ -38,8 +38,8 @@ export default function Home() {
             <h2 className="text-lg text-[#ec3750]">Overview</h2>
             <p className="text-lg">
               Hack Club has launched a new initiative to help Hack Clubbers to
-              share their love and passion of coding with students from
-              underrepresented groups who lack access to CS education through
+              share their love and passion of coding with students of gender minorities from 
+              underpriveleged backgrounds who lack access to CS education through
               one day hackathons.
             </p>
           </section>
@@ -49,9 +49,9 @@ export default function Home() {
             </h2>
             <ul className="list-disc list-inside">
               <li className="text-lg">
-                A one-day hackathon in collaboration organized by a group of
+                A one-day hackathon organized by a group of
                 Hack Clubbers in collaboration with an organization in your
-                local area that serves low-income, minority.{" "}
+                local area that serves gender minorities.{" "}
               </li>
               <li className="text-lg">
                 You’ll have the chance to train your organizing and technical
@@ -59,7 +59,7 @@ export default function Home() {
                 organizers.
               </li>
               <li className="text-lg">
-                You’ll hold an event that exposes a new community/group to
+                You’ll hold an event that exposes more students of gender minorities to
                 coding while collaborating on a fun project for the day.
               </li>
             </ul>
@@ -72,8 +72,8 @@ export default function Home() {
               The intention of the hackathon is to help other teenagers build
               their first project with code. To achieve that, the majority of
               guests will come through a nonprofit youth partner, like Girl
-              Scouts or Boys and Girls Club– that specifically serves
-              communities of less opportunity. And you'll be responsible for
+              Scouts or Boys and Girls Club– that specifically serve
+              communities of gender minorities with less opportunity. And you'll be responsible for
               creating content/workshops at the beginner level for them and
               helping them ship their first project.
             </p>
@@ -115,7 +115,7 @@ export default function Home() {
                 Scouts, Boy Scouts, 4H, Boys & Girls Club.
               </li>
               <li className="text-lg">
-                Participant Minimum: At least 20 high schoolers should be
+                Participant Minimum: At least 30 high schoolers should be
                 present at each event.
               </li>
             </ul>
@@ -123,7 +123,7 @@ export default function Home() {
           <section className="px-4 lg:px-10 flex flex-col gap-2">
             <h2 className="text-lg text-[#ec3750]">What is Hack Club?</h2>
             <p className="text-lg">
-              Hack Club is the largest non profit of over 26,350 teen hackers
+              Hack Club is the largest non profit of over 28,000 teen hackers
               from around the world who code together. Check out our projects{" "}
               <a
                 className="underline decoration-[#ec3750] hover:text-[#ec3750]"
