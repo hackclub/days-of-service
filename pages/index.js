@@ -59,7 +59,7 @@ export default function Home() {
           </section>
           <section className="flex flex-col content-end justify-end px-4 lg:px-10">
             <a
-              href="https://hackclub.com/donate"
+              href="https://hcb.hackclub.com/donations/start/hq"
               target="_blank"
               className="right-10 top-10 rounded-lg bg-[#ec3750] px-6 py-3 text-center text-xl font-medium text-white md:absolute lg:static xl:absolute"
             >
