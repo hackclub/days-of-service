@@ -143,7 +143,7 @@ export default function Home() {
                 Financial Management: The event will run on HCB.
               </li>
               <li className="text-lg">
-                Grant Acquisition: The organizers will be fully funded by Hack Club.
+                Funding: The organizers will be fully funded by Hack Club.
               </li>
               <li className="text-lg">
                 Partner Organisation: The event will be conducted in
