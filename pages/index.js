@@ -156,7 +156,7 @@ export default function Home() {
               </li>
             </ul>
           </section>
-          /* <section className="flex flex-col gap-2 px-4 lg:px-10">
+          <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">What is Hack Club?</h2>
             <p className="text-lg">
               Hack Club is the largest non profit of over 28,000 teen hackers
@@ -167,7 +167,7 @@ export default function Home() {
               >
                 here
               </a>
-              . /*
+              . 
             </p>
           </section>
           {/* <section className='px-4 lg:px-10 flex flex-col'>
