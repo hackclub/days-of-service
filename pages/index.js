@@ -83,22 +83,22 @@ export default function Home() {
               <li className="text-lg">
                 A one-day hackathon organized by a group of Hack Clubbers in
                 collaboration with an organization in our local area that
-                serves gender minorities. The event is followed up with a dinner with professional women engineers from the area. {" "}
+                serves gender minorities. {" "}
               </li>
                 <li className="text-lg">
-                The event is followed with a dinner with professional women engineers from the area. This is so to combat the problem of the tech sector lacking women respresentation. 
+                The event is followed with a dinner with professional women engineers from the area. This is to ensure young girls get to meet role models in the industry!. 
               </li>
               <li className="text-lg">
                 You’ll have the chance to train your organizing and technical
-                skills, with the support of highly experienced hackathon
-                organizers. You will also have the chance to meet women role models in the tech industry.
+                skills with the support of highly experienced hackathon
+                organizers. 
               </li>
               <li className="text-lg">
                 You’ll hold an event that exposes more students of gender
-                minorities to coding while meeting girls from your area who are also inetrested in tech.
+                minorities to coding.
               </li>
                 <li className="text-lg">
-                You will also have the chance to meet women role models in the tech industry.
+                You will also have the chance to meet other girls from your area who share a passion for coding.
               </li>
             </ul>
           </section>
