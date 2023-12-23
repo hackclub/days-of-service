@@ -86,7 +86,7 @@ export default function Home() {
                 serves gender minorities. {" "}
               </li>
                 <li className="text-lg">
-                The event is followed with a dinner with professional women engineers from the area. This is to ensure young girls get to meet role models in the industry!. 
+                The event is followed with a dinner with professional women engineers from the area. This is to ensure young girls get to meet role models in the industry! 
               </li>
               <li className="text-lg">
                 You’ll have the chance to train your organizing and technical
