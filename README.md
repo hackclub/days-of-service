@@ -1,6 +1,6 @@
 # Days of Service
 
-Helping Hack Clubbers share their love and passion for coding with students of gender minorities from underprivileged backgrounds who lack access to CS education. Funded and open sourced. 
+Hack Clubbers sharing their love and passion for coding with gender minorities from underprivileged backgrounds who lack access to CS education. Funded by [Hack Club](https://hackclub.com) and fully open sourced. 
 
 ## 🫶🏼 We've already organized 🫶🏼 
 
