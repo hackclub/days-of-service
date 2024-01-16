@@ -71,7 +71,7 @@ export default function Home() {
             <h2 className="text-lg text-[#ec3750]">Overview</h2>
             <p className="text-lg">
               Working with local youth organizations, high school Hack Club
-              leaders — with the support of — run one-day coding events (a day
+              leaders — with the support of our HQ team — run one-day coding events (a day
               of service) and help students build their first ever website, app,
               and program. Built for beginners learning to code for the first
               time, supported by more experienced peer mentors. By the end of
@@ -158,7 +158,7 @@ export default function Home() {
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">
-              We'd love to work with you, please reach us at{" "}
+              Interested in running/hosting a day of service? Please reach us at{" "}
               <a href="mailto:marianna@hackclub.com">marianna@hackclub.com</a>
             </h2>
           </section>
