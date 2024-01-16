@@ -16,7 +16,6 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-marquee-slider": "^1.1.5",
-    "react-ticker": "^1.3.2",
     "swr": "^2.2.2"
   },
   "devDependencies": {
