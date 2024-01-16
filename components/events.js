@@ -3,7 +3,8 @@ import Marquee from "react-marquee-slider";
 const events = [
   {
     name: "Horizon",
-    location: "New York City, New York",
+    location: "New York City, NY",
+    date: "March, 2023",
     logo: "https://cloud-3b48xagar-hack-club-bot.vercel.app/0horizon_logo.png",
     github_link: "https://github.com/hackclub/horizon",
     description:
@@ -31,7 +32,8 @@ const events = [
   },
   {
     name: "Alpine",
-    location: "Salt Lake City, Utah",
+    location: "Salt Lake City, UT",
+    date: "July, 2023",
     logo: "https://cloud-7zoxm80sm-hack-club-bot.vercel.app/0img_6658.jpg",
     github_link: "https://github.com/hackclub/alpine",
     description:
@@ -47,7 +49,8 @@ const events = [
   },
   {
     name: "Spark",
-    location: "San Francisco, California",
+    location: "San Francisco, CA",
+    date: "Aug, 2023",
     logo: "https://cloud-g8aj80b0m-hack-club-bot.vercel.app/0image.png",
     github_link: "https://github.com/hackclub/spark",
     description:
@@ -59,11 +62,12 @@ const events = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-VDde7xTQZz4nawIegiHA6k-5C_jb3mIxk7ls5hHCexO40BvPfxFGYw4u38QiRo2TtJWs2Pft_jga3SjAFAAXZhUycyHtvpKvGLqqBGsH9LqHZIDoRxOChd0u44fq4-amMO0PDHH_EkzjdNtZZWM3u=w1502-h1001-s-no?authuser=0",
       "https://lh3.googleusercontent.com/pw/AIL4fc8q5tPjayN0hav0YLb5LIfJ2Q29DesW74Gy6okpHL6fIqVIcAk6jqT7GONNaU2nknThCnTzlp0zikeqtT2r6Wx8WIO_Fo1v6gqpN6177c9gD0htYcUzBEnj-3qTZd-Sw-hXPKdaLXi386g4wqCGDS8e=w1502-h1001-s-no?authuser=0",
     ],
-    photocreds: "Angela Magtoto",
+    photocreds: "",
   },
   {
     name: "LoneStar",
-    location: "San Antonio, Texas",
+    location: "San Antonio, TX",
+    date: "Sep, 2023",
     logo: "https://cloud-qklaf9t4y-hack-club-bot.vercel.app/0untitled.png",
     github_link: "https://github.com/hackclub/lonestar",
     description:
@@ -73,12 +77,14 @@ const events = [
       "https://cloud-bvl31qfeu-hack-club-bot.vercel.app/020230916_121921.jpg",
       "https://cloud-kavud01na-hack-club-bot.vercel.app/0img_1726.jpg",
       "https://cloud-cbhei54z2-hack-club-bot.vercel.app/020230916_093640.jpg",
+      "https://cloud-bvl31qfeu-hack-club-bot.vercel.app/020230916_121921.jpg",
     ],
-    photocreds: "Sarthak Mohanty",
+    photocreds: "",
   },
   {
     name: "Harvest",
-    location: "Burlington, Vermont",
+    location: "Burlington, VT",
+    date: "Oct, 2023",
     logo: "https://cloud-8ln3q443h-hack-club-bot.vercel.app/0screenshot_20231001_190552_penup_2.jpg_10-18-56-737.jpg",
     github_link: "https://github.com/hackclub/harvest",
     description:
@@ -88,13 +94,14 @@ const events = [
       "https://cloud-aow7za3s6-hack-club-bot.vercel.app/0img_3143.heic",
       "https://cloud-lrmxlj4gd-hack-club-bot.vercel.app/0img_6419.jpg",
       "https://cloud-e5a0cdvcy-hack-club-bot.vercel.app/0img_6437.jpg",
+      "https://cloud-l9vmg3n5i-hack-club-bot.vercel.app/1screenshot_2024-01-16_at_12.49.31_pm.png",
     ],
-    photocreds:
-      "Nila Palmo Ram, Christina Asquith, Faisal Sayed, Jasper Mayone",
+    photocreds: "",
   },
   {
     name: "Halo",
-    location: "Los Angeles, California",
+    location: "Los Angeles, CA",
+    date: "Nov, 2023",
     logo: "https://cloud-efb6jycbn-hack-club-bot.vercel.app/0screenshot_2023-11-09_at_5.05.33_pm.png",
     github_link: "https://github.com/hackclub/halo",
     description:
@@ -104,8 +111,9 @@ const events = [
       "https://cloud-mwimfemam-hack-club-bot.vercel.app/0c1005.00_36_32_00.still018.jpg",
       "https://cloud-ws2l26p8c-hack-club-bot.vercel.app/0img_1666.jpg",
       "https://cloud-ozhhfkpwn-hack-club-bot.vercel.app/0img_1709.jpg",
+      "https://cloud-l9vmg3n5i-hack-club-bot.vercel.app/0img_5774.jpg",
     ],
-    photocreds: "Dieter Schoening, Ava Shah",
+    photocreds: "",
   },
 ];
 
@@ -118,6 +126,7 @@ export default function Events() {
           ({
             name,
             location,
+            date,
             logo,
             github_link,
             description,
@@ -126,41 +135,47 @@ export default function Events() {
           }) => (
             <div
               key={name}
-              className="flex h-fit w-full flex-col items-start justify-start rounded-lg border border-gray-400 p-4"
+              className="flex h-fit w-full flex-col items-start justify-start rounded-lg border border-gray-400 p-4 relative"
             >
-              <img className="w-1/3" src={logo} alt={`Logo for ${name}`} />
-              <p className="text-lg italic">{location}</p>
-              <p className="">{description}</p>
-              <a
-                href={github_link}
-                target="_blank"
-                className="pb-2 text-lg text-gray-500 underline hover:text-[#ec3750]"
-              >
-                See what went into planning
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="inline h-5 pl-2"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z"
-                    clipRule="evenodd"
-                  />
-                  <path
-                    fillRule="evenodd"
-                    d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </a>
+              <div className="flex h-fit w-full flex-col sm:flex-row items-center justify-start rounded-lg gap-4 p-5">
+                <img className=" w-2/3 sm:w-1/4" src={logo} alt={`Logo for ${name}`} />
+                <p className="text-sm absolute top-2 right-2 bg-[#FEEBEE] p-1 rounded-lg ">
+                  {date} | {location}
+                </p>
+                <div>
+                  <p className="">{description}</p>
+                  <a
+                    href={github_link}
+                    target="_blank"
+                    className="pb-2 text-lg text-gray-500 underline hover:text-[#ec3750]"
+                  >
+                    See what went into planning
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="inline h-5 pl-2"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z"
+                        clipRule="evenodd"
+                      />
+                      <path
+                        fillRule="evenodd"
+                        d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
               {photos.length > 0 ? (
-                <Marquee velocity={10}>
+                <Marquee velocity={8}>
                   {photos.map((photo) => (
                     <img
                       key={photo}
-                      className="mr-2 h-full w-[200px] object-contain"
+                      className="mr-2 h-full w-[200px] object-fill"
                       src={photo}
                     />
                   ))}
@@ -172,7 +187,7 @@ export default function Events() {
                 <p className="text-sm italic">Photo credits: {photocreds}</p>
               ) : null}
             </div>
-          ),
+          )
         )}
     </div>
   );

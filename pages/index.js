@@ -46,8 +46,9 @@ export default function Home() {
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">What is Hack Club?</h2>
             <p className="text-lg">
-              Hack Club is the largest network of highly technical teen hackers
-              from around the world. Check out our projects{" "}
+              Hack Club is a 501(c)3 nonprofit, supporting the largest network
+              of highly technical teen hackers from around the world. Learn more
+              about us{" "}
               <a
                 className="underline decoration-[#ec3750] hover:text-[#ec3750]"
                 href="https://hackclub.com"
@@ -57,52 +58,111 @@ export default function Home() {
               .
             </p>
           </section>
-          <section className="flex flex-col content-end justify-end px-4 lg:px-10">
-            <a
-              href="https://hcb.hackclub.com/donations/start/hq"
-              target="_blank"
-              className="right-10 top-10 rounded-lg bg-[#ec3750] px-6 py-3 text-center text-xl font-medium text-white md:absolute lg:static xl:absolute"
-            >
-              Donate
-            </a>
-          </section>
+          {/* <section className="flex flex-col content-end justify-end px-4 lg:px-10"> */}
+          <a
+            href="https://hcb.hackclub.com/donations/start/hq"
+            target="_blank"
+            className="right-5 top-5 rounded-lg bg-[#ec3750] px-3 py-1 text-center text-xl font-medium text-white absolute md:px-6 md:py-3 md:right-10 md:top-10"
+          >
+            Support us
+          </a>
+          {/* </section> */}
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">Overview</h2>
             <p className="text-lg">
-              Hack Club has launched a new initiative to help Hack Clubbers
-              share their love and passion for coding with students of gender
-              minorities from underprivileged backgrounds who lack access to CS
-              education. 
+              Working with local youth organizations, high school Hack Club
+              leaders — with the support of — run one-day coding events (a day
+              of service) and help students build their first ever website, app,
+              and program. Built for beginners learning to code for the first
+              time, supported by more experienced peer mentors. By the end of
+              the day, every single participant would have built something with
+              code.
+            </p>
+            <p className="text-lg">
+              In 2023, this was brought to 6 cities and we plan on doubling it
+              this year.
             </p>
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10">
-            <h2 className="text-lg text-[#ec3750]">
-              What is a Day of Service?
-            </h2>
-            <ul className="list-inside list-disc">
-              <li className="text-lg">
-                A one-day hackathon organized by a group of Hack Clubbers in
-                collaboration with an organization in our local area that
-                serves gender minorities. {" "}
-              </li>
-                <li className="text-lg">
-                The event is followed with a dinner with professional women engineers from the area. This is to ensure young girls get to meet role models in the industry! 
-              </li>
-              <li className="text-lg">
-                You’ll have the chance to train your organizing and technical
-                skills with the support of highly experienced hackathon
-                organizers. 
-              </li>
-              <li className="text-lg">
-                You’ll hold an event that exposes more students of gender
-                minorities to coding.
-              </li>
-                <li className="text-lg">
-                You will also have the chance to meet other girls from your area who share a passion for coding.
-              </li>
-            </ul>
+            <quote className="text-lg">
+              <span className="text-3xl text-[#ec3750]">“</span>It was a perfect
+              event. I brought 5 girls from my troop and they all were engaged
+              and talked about how much they loved the event. One girl asked if
+              this happens every Saturday!
+              <span className="text-[#ec3750]">”</span>
+            </quote>
+            <i>—Parent of Day of Service attendee</i>
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10">
+          <h2 className="text-lg text-[#ec3750]">
+              Watch a video of our latest event:
+            </h2>
+          <iframe className="w-full aspect-[16/9] m-auto" src="https://www.youtube.com/embed/hLCCbJw6Osg?si=Um_MuWLuXcShrulz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </section>
+          <section className="flex flex-col gap-2 px-4 lg:px-10">
+            <h2 className="text-lg text-[#ec3750]">
+              Day in a life @ Days of Service events:
+            </h2>
+            <table className="table-auto border border-separate border-spacing-y-2 border-spacing-x-5 border-[#FEEBEE]">
+              <thead>
+                <tr>
+                  <th>Time</th>
+                  <th>Activiy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>9am</td>
+                  <td>Check in</td>
+                </tr>
+                <tr>
+                  <td>10am</td>
+                  <td>Opening and team formation</td>
+                </tr>
+                <tr>
+                  <td>10:30am</td>
+                  <td>
+                    Workshops: Build your first website OR Make a game with
+                    Sprig
+                  </td>
+                </tr>
+                <tr>
+                  <td>11:30am</td>
+                  <td>Workshops: Collaborating with GitHub OR DIY Jeopardy</td>
+                </tr>
+                <tr>
+                  <td>12:30pm</td>
+                  <td>Lunch</td>
+                </tr>
+                <tr>
+                  <td>1pm</td>
+                  <td>
+                    Workshops: Making art with code OR Improve your website!
+                  </td>
+                </tr>
+                <tr>
+                  <td>2pm</td>
+                  <td>Brain break</td>
+                </tr>
+                <tr>
+                  <td>2:30pm</td>
+                  <td>Final Coding Time</td>
+                </tr>
+                <tr>
+                  <td>4:30pm</td>
+                  <td>Project Showcase & Closing Ceremony</td>
+                </tr>
+              </tbody>
+            </table>
+            <p className="text-sm">*Not all Days of Service are the same</p>
+          </section>
+          <section className="flex flex-col gap-2 px-4 lg:px-10">
+            <h2 className="text-lg text-[#ec3750]">
+              We'd love to work with you, please reach us at{" "}
+              <a href="mailto:marianna@hackclub.com">marianna@hackclub.com</a>
+            </h2>
+          </section>
+          {/* <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">
               How’s this different from a regular hackathon?
             </h2>
@@ -124,8 +184,8 @@ export default function Home() {
               event's success, Hack Club offers abundant documentation about
               past events.
             </p>
-          </section>
-          <section className="flex flex-col gap-2 px-4 lg:px-10">
+          </section> */}
+          {/* <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">The basics:</h2>
             <ul className="list-decimal pl-6">
               <li className="text-lg">
@@ -155,21 +215,7 @@ export default function Home() {
                 present at each event.
               </li>
             </ul>
-          </section>
-          <section className="flex flex-col gap-2 px-4 lg:px-10">
-            <h2 className="text-lg text-[#ec3750]">What is Hack Club?</h2>
-            <p className="text-lg">
-              Hack Club is the largest network of highly technical teen hackers
-              from around the world. Check out our projects{" "}
-              <a
-                className="underline decoration-[#ec3750] hover:text-[#ec3750]"
-                href="https://hackclub.com"
-              >
-                here
-              </a>
-              . 
-            </p>
-          </section>
+          </section> */}
           {/* <section className='px-4 lg:px-10 flex flex-col'>
             <h2 className='text-lg text-[#ec3750]'>Partners</h2>
             <img className="w-1/3" src="https://www.girlscouts.org/content/dam/gsusa/images/header/Mainnavlogo.png" />
@@ -185,9 +231,16 @@ export default function Home() {
             </div>
           </section> */}
         </div>
-        <div className="flex flex-col py-20 lg:max-h-screen lg:w-[59vw] lg:overflow-y-scroll">
+        <div className="flex flex-col py-4 lg:max-h-screen lg:w-[59vw] lg:overflow-y-scroll relative">
+          <div className="pr-4 mb-4">
+          <div className="w-full rounded-lg bg-cover text-center text-2xl font-bold bg-center text-white bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url('https://cloud-g2uzli3ny-hack-club-bot.vercel.app/0hc.png')]">
+            <a href="/code" target="_blank" className="w-full block py-16">
+              Teenager? Click here.
+            </a>
+          </div>
+          </div>
           <section className="flex min-h-[50vh] flex-col gap-2 px-4 lg:px-0">
-            <h2 className="text-lg">Past Events</h2>
+            <h2 className="text-2xl font-bold">Previous Days of Service</h2>
             <Events />
           </section>
         </div>
