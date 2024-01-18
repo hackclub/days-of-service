@@ -23,8 +23,8 @@ export default function Home() {
         title="Days Of Service" // page title
         description="All the info about Hack Club's Days of Service initiative" // page description
       />
-      <main className="lg:min-w-screen font-phantom-sans flex flex-col justify-between lg:min-h-screen lg:flex-row">
-        <div className="lg:wrapper relative flex flex-col gap-5 bg-[#ec3750] bg-opacity-10 py-10 lg:max-h-screen lg:w-[40vw] lg:overflow-y-scroll">
+      <main className="lg:min-w-screen font-phantom-sans flex flex-col lg:min-h-screen lg:flex-row">
+        <div className="lg:wrapper relative flex flex-col gap-6 bg-[#ec3750] bg-opacity-10 py-10 lg:max-h-screen lg:w-[40vw] lg:overflow-y-scroll">
           <section className="flex flex-col content-end justify-end px-4 lg:px-10">
             <h1 className="text-5xl font-bold">
               <span className="text-[#ec3750]">Hack Club</span>
@@ -71,95 +71,109 @@ export default function Home() {
             <h2 className="text-lg text-[#ec3750]">Overview</h2>
             <p className="text-lg">
               Working with local youth organizations, high school Hack Club
-              leaders — with the support of our HQ team — run one-day coding events (a day
-              of service) and help students build their first ever website, app,
-              and program. Built for beginners learning to code for the first
-              time, supported by more experienced peer mentors. By the end of
-              the day, every single participant would have built something with
-              code.
+              leaders — with the support of our HQ team — run one-day coding
+              events (a day of service) and help students build their first ever
+              website, app, and program. Built for beginners learning to code
+              for the first time, supported by more experienced peer mentors. By
+              the end of the day, every single participant would have built
+              something with code.
             </p>
             <p className="text-lg">
               In 2023, this was brought to 6 cities and we plan on doubling it
               this year.
             </p>
           </section>
-          <section className="flex flex-col gap-2 px-4 lg:px-10">
-            <quote className="text-lg">
-              <span className="text-3xl text-[#ec3750]">“</span>It was a perfect
-              event. I brought 5 girls from my troop and they all were engaged
-              and talked about how much they loved the event. One girl asked if
-              this happens every Saturday!
+          <section className="flex flex-col gap-2 px-4 lg:px-10 relative">
+            <quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
+              It was a perfect event. I brought 5 girls from my troop and they
+              all were engaged and talked about how much they loved the event.
+              One girl asked if this happens every Saturday!
               <span className="text-[#ec3750]">”</span>
             </quote>
             <i>—Parent of Day of Service attendee</i>
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10">
-          <h2 className="text-lg text-[#ec3750]">
+            <h2 className="text-lg text-[#ec3750]">
               Watch a video of our latest event:
             </h2>
-          <iframe className="w-full aspect-[16/9] m-auto" src="https://www.youtube.com/embed/hLCCbJw6Osg?si=Um_MuWLuXcShrulz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe
+              className="w-full aspect-[16/9] m-auto"
+              src="https://www.youtube.com/embed/hLCCbJw6Osg?si=Um_MuWLuXcShrulz"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">
-              Day in a life @ Days of Service events:
+              Not all Days of Service are the same, <br /> but here's what it
+              could look like:
             </h2>
             <table className="table-auto border border-separate border-spacing-y-2 border-spacing-x-5 border-[#FEEBEE]">
               <thead>
                 <tr>
                   <th>Time</th>
-                  <th>Activiy</th>
+                  <th>Activity</th>
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>9am</td>
+                <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
+                  <td className="text-zinc-500 float-left text-sm">9am</td>
                   <td>Check in</td>
                 </tr>
-                <tr>
-                  <td>10am</td>
+                <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
+                  <td className="text-zinc-500 float-left text-sm">10am</td>
                   <td>Opening and team formation</td>
                 </tr>
-                <tr>
-                  <td>10:30am</td>
+                <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
+                  <td className="text-zinc-500 float-left text-sm">10:30am</td>
                   <td>
                     Workshops: Build your first website OR Make a game with
                     Sprig
                   </td>
                 </tr>
-                <tr>
-                  <td>11:30am</td>
+                <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
+                  <td className="text-zinc-500 float-left text-sm">11:30am</td>
                   <td>Workshops: Collaborating with GitHub OR DIY Jeopardy</td>
                 </tr>
-                <tr>
-                  <td>12:30pm</td>
+                <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
+                  <td className="text-zinc-500 float-left text-sm">12:30pm</td>
                   <td>Lunch</td>
                 </tr>
-                <tr>
-                  <td>1pm</td>
+                <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
+                  <td className="text-zinc-500 float-left text-sm">1pm</td>
                   <td>
                     Workshops: Making art with code OR Improve your website!
                   </td>
+                  {/* <caption className="after: opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400"></caption> */}
                 </tr>
-                <tr>
-                  <td>2pm</td>
+                <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
+                  <td className="text-zinc-500 float-left text-sm">2pm</td>
                   <td>Brain break</td>
                 </tr>
-                <tr>
-                  <td>2:30pm</td>
+                <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
+                  <td className="text-zinc-500 float-left text-sm">2:30pm</td>
                   <td>Final Coding Time</td>
                 </tr>
                 <tr>
-                  <td>4:30pm</td>
+                  <td className="text-zinc-500 float-left text-sm">4:30pm</td>
                   <td>Project Showcase & Closing Ceremony</td>
                 </tr>
               </tbody>
             </table>
-            <p className="text-sm">*Not all Days of Service are the same</p>
+            {/* <p className="text-sm">*Not all Days of Service are the same</p> */}
           </section>
-          <section className="flex flex-col gap-2 px-4 lg:px-10">
+          <section className="flex flex-row gap-2 px-4 lg:px-10">
+            <img
+              src="https://icons.hackclub.com/api/icons/0xec3750/glyph:message-simple-new.svg"
+              className="w-7 inline mr-1"
+            />
             <h2 className="text-lg text-[#ec3750]">
-              Interested in running/hosting a day of service? Please reach us at{" "}
-              <a href="mailto:marianna@hackclub.com">marianna@hackclub.com</a>
+              Interested in running a day of service? <br /> Please reach us at{" "}
+              <a href="mailto:marianna@hackclub.com" className="underline">
+                marianna@hackclub.com
+              </a>
             </h2>
           </section>
           {/* <section className="flex flex-col gap-2 px-4 lg:px-10">
@@ -231,15 +245,19 @@ export default function Home() {
             </div>
           </section> */}
         </div>
-        <div className="flex flex-col py-4 lg:max-h-screen lg:w-[59vw] lg:overflow-y-scroll relative">
-          <div className="pr-4 mb-4">
-          <div className="w-full rounded-lg bg-cover text-center text-2xl font-bold bg-center text-white bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url('https://cloud-g2uzli3ny-hack-club-bot.vercel.app/0hc.png')]">
-            <a href="/code" target="_blank" className="w-full block py-16">
+        <div className="flex flex-col p-4 lg:max-h-screen lg:w-[60vw] lg:overflow-y-scroll relative">
+          <div className="bg-[#FEEBEE] mb-4 relative hover:scale-[1.03] transition duration-250 ease-in">
+            <div className="w-full h-full blur-[0.7px] absolute rounded-lg bg-cover bg-center text-white bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.43),rgba(0,0,0,0.43)),url('https://cloud-g2uzli3ny-hack-club-bot.vercel.app/0hc.png')]"></div>
+            <a
+              href="/code"
+              target="_blank"
+              className="w-full block py-16 z-3 relative text-center text-2xl font-bold text-white"
+            >
               Teenager? Click here.
             </a>
+            <img src="/corner.png" className="w-12 absolute -top-1 -right-1" />
           </div>
-          </div>
-          <section className="flex min-h-[50vh] flex-col gap-2 px-4 lg:px-0">
+          <section className="flex min-h-[50vh] flex-col gap-2 lg:px-0">
             <h2 className="text-2xl font-bold">Previous Days of Service</h2>
             <Events />
           </section>

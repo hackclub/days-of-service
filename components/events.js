@@ -119,7 +119,7 @@ const events = [
 
 export default function Events() {
   return (
-    <div className="flex flex-col gap-2 lg:pr-5">
+    <div className="flex flex-col gap-2">
       {events
         .reverse()
         .map(
@@ -135,11 +135,15 @@ export default function Events() {
           }) => (
             <div
               key={name}
-              className="flex h-fit w-full flex-col items-start justify-start rounded-lg border border-gray-400 p-4 relative"
+              className="flex h-fit w-full flex-col items-start justify-start rounded-lg border border-gray-400 md:p-4 relative pb-4"
             >
               <div className="flex h-fit w-full flex-col sm:flex-row items-center justify-start rounded-lg gap-4 p-5">
-                <img className=" w-2/3 sm:w-1/4" src={logo} alt={`Logo for ${name}`} />
-                <p className="text-sm absolute top-2 right-2 bg-[#FEEBEE] p-1 rounded-lg ">
+                <img
+                  className=" w-2/3 sm:w-1/4"
+                  src={logo}
+                  alt={`Logo for ${name}`}
+                />
+                <p className="text-sm absolute top-2 right-2 text-[#ec3750] bg-[#FEEBEE] p-1 rounded-lg ">
                   {date} | {location}
                 </p>
                 <div>
@@ -189,6 +193,7 @@ export default function Events() {
             </div>
           )
         )}
+      <br />
     </div>
   );
 }
