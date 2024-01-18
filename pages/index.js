@@ -69,17 +69,17 @@ export default function Home() {
           {/* </section> */}
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">Overview</h2>
-            <p className="text-lg">
+            <p className="text-lg pb-3">
               Working with local youth organizations, high school Hack Club
-              leaders — with the support of our HQ team — run one-day coding
-              events (a day of service) and help students build their first ever
-              website, app, and program. Built for beginners learning to code
-              for the first time, supported by more experienced peer mentors. By
-              the end of the day, every single participant would have built
-              something with code.
+              leaders — with the support of the Hack Club team — run one-day coding
+              events (a day of service) and help students of gender minorities to build their first ever
+              website, app, and program. 
             </p>
             <p className="text-lg">
-              In 2023, this was brought to 6 cities and we plan on doubling it
+            Built for beginners learning to code
+              for the first time, supported by more experienced peer mentors. By
+              the end of the day, every single participant would have built
+              something with code. In 2023, this was brought to 6 cities and we plan on doubling it
               this year.
             </p>
           </section>
@@ -124,18 +124,13 @@ export default function Home() {
                 </tr>
                 <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
                   <td className="text-zinc-500 float-left text-sm">10am</td>
-                  <td>Opening and team formation</td>
+                  <td>Opening and pick a track <span className="bold italic text-[#ec3750]">(Design a Website OR Build a Game OR Create a circuit board)</span></td>
                 </tr>
                 <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
                   <td className="text-zinc-500 float-left text-sm">10:30am</td>
                   <td>
-                    Workshops: Build your first website OR Make a game with
-                    Sprig
+                    Workshops: Learn all you need to build
                   </td>
-                </tr>
-                <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
-                  <td className="text-zinc-500 float-left text-sm">11:30am</td>
-                  <td>Workshops: Collaborating with GitHub OR DIY Jeopardy</td>
                 </tr>
                 <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
                   <td className="text-zinc-500 float-left text-sm">12:30pm</td>
@@ -144,13 +139,13 @@ export default function Home() {
                 <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
                   <td className="text-zinc-500 float-left text-sm">1pm</td>
                   <td>
-                    Workshops: Making art with code OR Improve your website!
+                    Work on your project with mentors
                   </td>
                   {/* <caption className="after: opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400"></caption> */}
                 </tr>
                 <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
                   <td className="text-zinc-500 float-left text-sm">2pm</td>
-                  <td>Brain break</td>
+                  <td>Brain Break</td>
                 </tr>
                 <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
                   <td className="text-zinc-500 float-left text-sm">2:30pm</td>
@@ -171,79 +166,11 @@ export default function Home() {
             />
             <h2 className="text-lg text-[#ec3750]">
               Interested in running a day of service? <br /> Please reach us at{" "}
-              <a href="mailto:marianna@hackclub.com" className="underline">
-                marianna@hackclub.com
+              <a href="mailto:nila@hackclub.com" className="underline">
+                nila@hackclub.com
               </a>
             </h2>
           </section>
-          {/* <section className="flex flex-col gap-2 px-4 lg:px-10">
-            <h2 className="text-lg text-[#ec3750]">
-              How’s this different from a regular hackathon?
-            </h2>
-            <p className="text-lg">
-              The intention of the hackathon is to help girls who lack access to resources and opportunities build
-              their first project with code. To achieve that, the majority of
-              guests will come through a nonprofit youth partner, like Girl
-              Scouts– that specifically serve communities
-              of gender minorities with less opportunity. Hack Clubbers will be responsible for creating beginner level content/workshops
-              for them and helping them ship their first project.
-            </p>
-            <p className="text-lg">
-              Hack Club supports Days of Service by offering close personal
-              support to organizers. We help guide you
-              from opening your repository to the closing ceremony.
-              Additionally, Hack Club provides funding for travel stipends and
-              event costs. The number of mentors and people flown in varies
-              depending on the number of attendees at the event. To ensure the
-              event's success, Hack Club offers abundant documentation about
-              past events.
-            </p>
-          </section> */}
-          {/* <section className="flex flex-col gap-2 px-4 lg:px-10">
-            <h2 className="text-lg text-[#ec3750]">The basics:</h2>
-            <ul className="list-decimal pl-6">
-              <li className="text-lg">
-                Duration: Lasting a minimum of 8 hours.
-              </li>
-              <li className="text-lg">
-                Leadership: Led by a Hack Club member who will act as the
-                event's coordinator.
-              </li>
-              <li className="text-lg">
-                Team Management: The coordinator will oversee a group of other
-                Hack Club members specifically assembled for the event.
-              </li>
-              <li className="text-lg">
-                Financial Management: The event will run on HCB.
-              </li>
-              <li className="text-lg">
-                Funding: The organizers will be fully funded by Hack Club.
-              </li>
-              <li className="text-lg">
-                Partner Organisation: The event will be conducted in
-                partnership with a partner organization such as Girl
-                Scouts or Boys & Girls Club.
-              </li>
-              <li className="text-lg">
-                Minimum Participants: At least 30 high schoolers should be
-                present at each event.
-              </li>
-            </ul>
-          </section> */}
-          {/* <section className='px-4 lg:px-10 flex flex-col'>
-            <h2 className='text-lg text-[#ec3750]'>Partners</h2>
-            <img className="w-1/3" src="https://www.girlscouts.org/content/dam/gsusa/images/header/Mainnavlogo.png" />
-          </section>
-          <section className='px-4 lg:px-10 flex flex-col gap-2'>
-            <h2 className='text-lg text-[#ec3750]'>Quotes</h2>
-            <div className='flex flex-row gap-4'>
-              <img className="w-20 h-20 rounded-full" src="https://github.com/sarthaktexas.png" />
-              <div className='flex flex-col justify-center'>
-                <p className='italic text-lg'>"Jahde said it was a perfect event she asked if this happens every Saturday!"</p>
-                <h3 className=''>Sarthak Mohanty, Hack Clubber</h3>
-              </div>
-            </div>
-          </section> */}
         </div>
         <div className="flex flex-col p-4 lg:max-h-screen lg:w-[60vw] lg:overflow-y-scroll relative">
           <div className="bg-[#FEEBEE] mb-4 relative hover:scale-[1.03] transition duration-250 ease-in">

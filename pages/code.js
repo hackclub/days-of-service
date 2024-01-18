@@ -93,11 +93,30 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="bg-[#FEEBEE] p-5 col-span-2 sm:col-span-3 rounded-lg">
-            <h3 className="text-xl font-bold">How can I get involved with Hack Club?</h3>
-            <p>Hey i'm nila! // to be added</p>
-            I'd love to chat! email me at{" "}
-            <a href="mailto:nila@hackclub.com">nila@hackclub.com</a>
+          <div className="bg-[#FEEBEE] p-5 col-span-2 sm:col-span-3 rounded-lg flex items-center">
+            <div>
+              <h3 className="text-xl font-bold">Coding at Hack Club:</h3>
+              <p>
+                Hey I'm Nila! I'm 18 and I absolutely love coding and am all about making
+                tech awesome while experimenting with how to keep it ethical and
+                humanistic. At Hack Club, I help run the Days of Service
+                program! My favorite aspect of Days of Services is that I get to
+                share my passion for technology with young girls who have never
+                had the opportunity to experiment with it!
+              </p>
+              <br />
+              <p>
+              If you're starting to learn to code and want a buddy, i'd love to be here for you! I can help you find the right resources to keep coding :)
+              </p>
+              <br />
+              <p>
+              Email me at{" "}
+              <a href="mailto:nila@hackclub.com" className="underline">
+                nila@hackclub.com
+              </a>
+              </p>
+              <i>P.S. If you are interested in hosting a Days of Service, please reach out too! </i>
+            </div>
           </div>
           <div className="bg-[#FEEBEE] col-span-2 sm:col-span-3 rounded-lg hover:scale-[1.03] transition duration-250 ease-in">
             <img
