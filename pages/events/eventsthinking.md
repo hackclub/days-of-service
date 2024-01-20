@@ -1,5 +1,3 @@
- **Here's the corrected Markdown page:**
-
 # Guest Book
 
 ***What if Day of Service attendees could post that they were at the event? They could do this themselves or attend a workshop where they would learn how to do it.***
