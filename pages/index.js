@@ -72,8 +72,8 @@ export default function Home() {
             <p className="text-lg pb-3">
               Working with local youth organizations, high school Hack Club
               leaders — with the support of the Hack Club team — run one-day coding
-              events (a day of service) and help students of gender minorities to build their first ever
-              website, app, and program. 
+              events (a day of service) and help girls and gender minorities to build their first ever
+              website, video game, application and even code a robot arm to draw! 
             </p>
             <p className="text-lg">
             Built for beginners learning to code
@@ -107,7 +107,7 @@ export default function Home() {
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">
-              Not all Days of Service are the same, <br /> but here's what it
+              Not all Days of Service are the same, <br /> but here's what one
               could look like:
             </h2>
             <table className="table-auto border border-separate border-spacing-y-2 border-spacing-x-5 border-[#FEEBEE]">
