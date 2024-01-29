@@ -77,7 +77,7 @@ export default function Home() {
             </p>
             <p className="text-lg">
             Built for beginners learning to code
-              for the first time, supported by more experienced peer mentors. By
+              for the first time, girls are supported by experienced hack clubbers. By
               the end of the day, every single participant would have built
               something with code. In 2023, this was brought to 6 cities and we plan on doubling it
               this year.
@@ -85,12 +85,13 @@ export default function Home() {
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10 relative">
             <quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
-              It was a perfect event. I brought 5 girls from my troop and they
-              all were engaged and talked about how much they loved the event.
-              One girl asked if this happens every Saturday!
+              There were two amazing aspects to this event: 1) Girls are being taught by other girls, and I believe 
+              that WHEN GIRLS SEE IT, THEY CAN BE IT. 2) Most of the time our girls are learning foundational coding, 
+              but in this experience, we saw the girls taking an opportunity to incorporate their creative voice within 
+              their projects. 
               <span className="text-[#ec3750]">”</span>
             </quote>
-            <i>—Parent of Day of Service attendee</i>
+            <i>—Anna Marie Leidelmeijer, Girl Scouts of Greater LA, Program Specialist</i>
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">
