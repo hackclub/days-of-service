@@ -69,6 +69,9 @@ export default function Home() {
           {/* </section> */}
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">Overview</h2>
+             <p className="text-lg pb-3">
+              lol hi
+            </p>
             <p className="text-lg pb-3">
               Working with local youth organizations, high school Hack Club
               leaders — with the support of the Hack Club team — run one-day coding
