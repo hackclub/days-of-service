@@ -69,6 +69,11 @@ export default function Home() {
           {/* </section> */}
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">Overview</h2>
+
+            <p className="text-lg pb-3">
+              Days of Service is Hack Club’s initiative to support more girls learning to code.
+            </p>
+            
             <p className="text-lg pb-3">
               Working with local youth organizations, high school Hack Club
               leaders — with the support of the Hack Club team — run one-day coding
@@ -86,7 +91,7 @@ export default function Home() {
           <section className="flex flex-col gap-2 px-4 lg:px-10 relative">
             <quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
               There were two amazing aspects to this event: 1) Girls are being taught by other girls, and I believe 
-              that WHEN GIRLS SEE IT, THEY CAN BE IT. 2) Most of the time our girls are learning foundational coding, 
+              that <i>when girls see it, they can be it.</i> 2) Most of the time our girls are learning foundational coding, 
               but in this experience, we saw the girls taking an opportunity to incorporate their creative voice within 
               their projects. 
               <span className="text-[#ec3750]">”</span>
