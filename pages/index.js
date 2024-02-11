@@ -71,29 +71,25 @@ export default function Home() {
             <h2 className="text-lg text-[#ec3750]">Overview</h2>
 
             <p className="text-lg pb-3">
-              Days of Service is Hack Club’s initiative to support more girls learning to code.
+              Days of Service is Hack Club’s initiative to support girls learning to code.
             </p>
             
             <p className="text-lg pb-3">
               Working with local youth organizations, high school Hack Club
-              leaders — with the support of the Hack Club team — run one-day coding
-              events (a day of service) and help girls and gender minorities to build their first ever
+              leaders run one-day coding
+              events (a day of service) that help girls and gender minorities write their first lines of code.  They might build their first ever
               website, video game, application and even code a robot arm to draw! 
             </p>
             <p className="text-lg">
-            Built for beginners learning to code
-              for the first time, girls are supported by experienced hack clubbers. By
-              the end of the day, every single participant would have built
-              something with code. In 2023, this was brought to 6 cities and we plan on doubling it
-              this year.
+            Built for beginners learning to code, girls are supported by experienced Hack Clubbers. By
+              the end of the day, every single participant builds
+              something with code. In 2023, Hack Club girls ran Days of Service 6 cities, and in 2024 they'll increase events to more than 10 cities.  
             </p>
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10 relative">
             <quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
-              There were two amazing aspects to this event: 1) Girls are being taught by other girls, and I believe 
-              that <i>when girls see it, they can be it.</i> 2) Most of the time our girls are learning foundational coding, 
-              but in this experience, we saw the girls taking an opportunity to incorporate their creative voice within 
-              their projects. 
+              <br>One of the amazing aspects to Days of Service is that girls are taught by other girls. <i>When girls see it, they can be it!</>  
+              Many of our girls learn foundational coding but (in Days of Service) they also got to incorporate their creative voice  
               <span className="text-[#ec3750]">”</span>
             </quote>
             <i>—Anna Marie Leidelmeijer, Girl Scouts of Greater LA, Program Specialist</i>
