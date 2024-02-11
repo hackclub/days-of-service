@@ -88,11 +88,12 @@ export default function Home() {
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10 relative">
             <quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
-              <br />One of the amazing aspects to Days of Service is that girls are taught by other girls. <i>When girls see it, they can be it!</i>  
-              Many of our girls learn foundational coding but (in Days of Service) they also got to incorporate their creative voice  
-              <span className="text-[#ec3750]">”</span>
+              <br /> <i>One of the amazing aspects to Days of Service is that girls are taught by other girls. When girls see it, they can be it!
+              Many of our girls learn foundational coding but (in Days of Service) they also got to incorporate their creative voice </i> 
+              <span className="text-[#ec3750]">”</span><quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
+            
             </quote>
-            <i>—Anna Marie Leidelmeijer, Girl Scouts of Greater LA, Program Specialist</i>
+            —Anna Marie Leidelmeijer, Girl Scouts of Greater LA, Program Specialist
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">
