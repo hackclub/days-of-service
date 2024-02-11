@@ -90,8 +90,7 @@ export default function Home() {
             <quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
               <br /> <i>One of the amazing aspects to Days of Service is that girls are taught by other girls. When girls see it, they can be it!
               Many of our girls learn foundational coding but (in Days of Service) they also got to incorporate their creative voice </i> 
-              <span className="text-[#ec3750]">”</span><quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
-            
+              <span className="text-[#ec3750]">”</span>
             </quote>
             —Anna Marie Leidelmeijer, Girl Scouts of Greater LA, Program Specialist
           </section>
