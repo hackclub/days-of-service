@@ -115,6 +115,23 @@ const events = [
     ],
     photocreds: "",
   },
+  {
+    name: "Think Like a Programmer",
+    location: "Boston, MA",
+    date: "Feb, 2024",
+    logo: "https://cloud-3z7d8kzp8-hack-club-bot.vercel.app/0transparent1.png",
+    github_link: "https://github.com/hackclub/think-like-a-programmer",
+    description:
+      "Think Like a Programmer was a hackathon organised in collaboration with the Girl Scouts of Eastern Massachusetts. 25 girl scouts learnt to build out wireframes from their apps to receive their Take Action award and 5 organisers built their first ever websites!",
+    photos: [
+      "https://cloud-4i4ldjlwz-hack-club-bot.vercel.app/0img_7568.jpg",
+      "https://cloud-pommvllkp-hack-club-bot.vercel.app/0pxl_20240222_151032500.mp.jpg",
+      "https://cloud-hip63cfd6-hack-club-bot.vercel.app/04d39ebbb-6726-46d9-969b-3adcf40c5538_1_105_c.jpeg",
+      "https://cloud-r0boefhye-hack-club-bot.vercel.app/07a53b406-6a20-476a-86bc-b2d3f61b4e2f_1_105_c.jpeg",
+      "https://cloud-59lgcu2q6-hack-club-bot.vercel.app/0pxl_20240222_153251104.mp.jpg",
+    ],
+    photocreds: "",
+  },
 ];
 
 export default function Events() {
