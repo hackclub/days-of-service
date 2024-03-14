@@ -92,7 +92,7 @@ export default function Home() {
                 <br /> <br /> <i>It was a magical day! We hope we can work with you again in the future.</i>
               <span className="text-[#ec3750]">”</span>
             </quote>
-            —Jennifer LeValley 
+            - Jennifer LeValley 
              <br /> Program Specialist, Girl Scouts Greater Boston
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10">
