@@ -89,11 +89,11 @@ export default function Home() {
           <section className="flex flex-col gap-2 px-4 lg:px-10 relative">
             <quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
               <br /> <i>Thank you so much for the amazing event! The Girl Scouts clearly were having fun and enjoying everything you taught them. We really appreciate all the effort you put into this event and the hard work you put into before the event.</i>
-                <br /> <i>It was a magical day! We hope we can work with you again in the future.</i>
+                <br /> <br /> <i>It was a magical day! We hope we can work with you again in the future.</i>
               <span className="text-[#ec3750]">”</span>
             </quote>
             —Jennifer LeValley 
-             Program Specialist, Girl Scouts Greater Boston
+             <br /> Program Specialist, Girl Scouts Greater Boston
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">
