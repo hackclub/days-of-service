@@ -122,7 +122,7 @@ const events = [
     logo: "https://cloud-pfwehbqj4-hack-club-bot.vercel.app/0img_0417.png",
     github_link: "https://github.com/hackclub/think-like-a-programmer",
     description:
-      "Think Like a Programmer was a hackathon organised in collaboration with the Girl Scouts of Eastern Massachusetts. 25 girl scouts learnt to build out wireframes from their apps to receive their Take Action award and 5 organisers built their first ever websites!",
+      "Think Like a Programmer was a hackathon organised in collaboration with the Girl Scouts of Eastern Massachusetts. 25 girl scouts learnt to build out wireframes for their apps to receive their Take Action award and 5 organisers built their first ever websites!",
     photos: [
       "https://cloud-4i4ldjlwz-hack-club-bot.vercel.app/0img_7568.jpg",
       "https://cloud-pommvllkp-hack-club-bot.vercel.app/0pxl_20240222_151032500.mp.jpg",
