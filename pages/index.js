@@ -88,12 +88,20 @@ export default function Home() {
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10 relative">
             <quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
-              <br /> <i>Thank you so much for the amazing event! The Girl Scouts clearly were having fun and enjoying everything you taught them. We really appreciate all the effort you put into this event and the hard work you put into before the event.</i>
-                <br /> <br /> <i>It was a magical day! We hope we can work with you again in the future.</i>
+              There were two amazing aspects to this event: 1) Girls are being taught by other girls, and I believe 
+              that <i>when girls see it, they can be it.</i> 2) Most of the time our girls are learning foundational coding, 
+              but in this experience, we saw the girls taking an opportunity to incorporate their creative voice within 
+              their projects. 
+              <span className="text-[#ec3750]">”</span>
+            </quote>
+            — Anna Marie Leidelmeijer, 
+              <br /> Program Specialist, Girl Scouts of Greater LA
+            <quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
+              <br /> <i>It was a magical day! We hope we can work with you again in the future.</i>
               <span className="text-[#ec3750]">”</span>
             </quote>
             - Jennifer LeValley 
-             <br /> Program Specialist, Girl Scouts Greater Boston
+             <br /> Program Specialist, Girl Scouts of Eastern Massachusetts
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">
