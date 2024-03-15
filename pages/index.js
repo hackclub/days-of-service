@@ -94,8 +94,9 @@ export default function Home() {
               their projects. 
               <span className="text-[#ec3750]">”</span>
             </quote>
-            — Anna Marie Leidelmeijer, 
+            — Anna Marie Leidelmeijer
               <br /> Program Specialist, Girl Scouts of Greater LA
+          <section className="flex flex-col gap-2 px-4 lg:px-10 relative">
             <quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
               <br /> <i>It was a magical day! We hope we can work with you again in the future.</i>
               <span className="text-[#ec3750]">”</span>
