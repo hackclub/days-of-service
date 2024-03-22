@@ -13,7 +13,7 @@ Hack Clubbers sharing their love and passion for coding with gender minorities f
 | Oct 2023 | Burlington, VT | [Harvest 🎃](https://github.com/hackclub/harvest) |
 | Nov 2023 | Los Angeles, CA | [HALO 😇](https://github.com/hackclub/halo) |
 | Feb 2024 | Boston, MA | [Think Like A Programmer]() |
-| Mar 2024 | Atlanta, GA | [Blossom 🌸] (https://github.com/hackclub/blossom)|
+| Mar 2024 | Atlanta, GA | [Blossom 🌸](https://github.com/hackclub/blossom)|
 
 ## In this repo:
 
