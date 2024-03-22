@@ -136,7 +136,7 @@ const events = [
     name: "Blossom",
     location: "Atlanta, GA",
     date: "Mar, 2024",
-    logo: "https://cloud-m2k6u58lv-hack-club-bot.vercel.app/0blossom_dino_-_no_sky.png",
+    logo: "https://cloud-o1dwwfpz8-hack-club-bot.vercel.app/04k_blossom_logo.png",
     github_link: "https://github.com/hackclub/blossom",
     description:
       "Blossom 🌸 is a Hack Club Days of Service, an initiative started to bridge the gender gap in technology. We organized a day of coding in partnership with a local youth organization, The Girl Scouts of Greater Atlanta!",
