@@ -132,6 +132,23 @@ const events = [
     ],
     photocreds: "",
   },
+  {
+    name: "Blossom",
+    location: "Atlanta, GA",
+    date: "Mar, 2024",
+    logo: "https://cloud-m2k6u58lv-hack-club-bot.vercel.app/0blossom_dino_-_no_sky.png",
+    github_link: "https://github.com/hackclub/blossom",
+    description:
+      "Blossom 🌸 is a Hack Club Days of Service, an initiative started to bridge the gender gap in technology. We organized a day of coding in partnership with a local youth organization, The Girl Scouts of Greater Atlanta!",
+    photos: [
+      "https://cloud-hhue70g6y-hack-club-bot.vercel.app/0250a2865.jpg",
+      "https://cloud-hhue70g6y-hack-club-bot.vercel.app/1250a2877.jpg",
+      "https://cloud-hhue70g6y-hack-club-bot.vercel.app/2250a2890.jpg",
+      "https://cloud-hhue70g6y-hack-club-bot.vercel.app/3250a3100.jpg",
+      "https://cloud-hhue70g6y-hack-club-bot.vercel.app/4250a3142.jpg",
+    ],
+    photocreds: "",
+  },
 ];
 
 export default function Events() {
