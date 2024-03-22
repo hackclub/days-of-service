@@ -143,8 +143,8 @@ const events = [
     photos: [
       "https://cloud-hhue70g6y-hack-club-bot.vercel.app/0250a2865.jpg",
       "https://cloud-hhue70g6y-hack-club-bot.vercel.app/1250a2877.jpg",
-      "https://cloud-hhue70g6y-hack-club-bot.vercel.app/2250a2890.jpg",
-      "https://cloud-hhue70g6y-hack-club-bot.vercel.app/3250a3100.jpg",
+      "https://cloud-hvi7pz8fo-hack-club-bot.vercel.app/0250a2935.jpg",
+      "https://cloud-hvi7pz8fo-hack-club-bot.vercel.app/1250a2999.jpg",
       "https://cloud-hhue70g6y-hack-club-bot.vercel.app/4250a3142.jpg",
     ],
     photocreds: "",
