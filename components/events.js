@@ -136,13 +136,16 @@ const events = [
     name: "Blossom",
     location: "Atlanta, GA",
     date: "Mar, 2024",
-    logo: "https://cloud-m2k6u58lv-hack-club-bot.vercel.app/0blossom_dino_-_no_sky.png",
+    logo: "https://cloud-1jl2pv0oq-hack-club-bot.vercel.app/04k_blossom_logo.png",
     github_link: "https://github.com/hackclub/blossom",
     description:
-      "Blossom 🌸 is a Hack Club Days of Service, an initiative started to bridge the gender gap in technology. We organized a day of coding in partnership with a local youth organization, The Girl Scouts of Greater Atlanta!",
+      "Blossom 🌸 was a full-day hackathon dedicated to empowering young women in technology, led by Sahiti, 17. As the largest gender-focused hackathon in Atlanta, the event collaborated with the Greater Atlanta Girl Scouts. Novice Girl Scouts embarked on an exciting journey, crafting their own PCB keychains and delving into an introduction of JavaScript to code drawings on Blot: Hack Club's Drawing Robot.",
     photos: [
+      "https://cloud-7886aannt-hack-club-bot.vercel.app/0250a3230.jpg",
       "https://cloud-hhue70g6y-hack-club-bot.vercel.app/0250a2865.jpg",
+      "https://cloud-cvjythl68-hack-club-bot.vercel.app/0250a2977.jpg",
       "https://cloud-hhue70g6y-hack-club-bot.vercel.app/1250a2877.jpg",
+      "https://cloud-8qvbc50by-hack-club-bot.vercel.app/0250a3003.jpg",
       "https://cloud-hvi7pz8fo-hack-club-bot.vercel.app/0250a2935.jpg",
       "https://cloud-hvi7pz8fo-hack-club-bot.vercel.app/1250a2999.jpg",
       "https://cloud-hhue70g6y-hack-club-bot.vercel.app/4250a3142.jpg",
