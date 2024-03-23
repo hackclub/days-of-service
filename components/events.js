@@ -136,7 +136,7 @@ const events = [
     name: "Blossom",
     location: "Atlanta, GA",
     date: "Mar, 2024",
-    logo: "https://cloud-1jl2pv0oq-hack-club-bot.vercel.app/04k_blossom_logo.png",
+    logo: "https://cloud-lbx88411h-hack-club-bot.vercel.app/04k_blossom_logo__1_.png",
     github_link: "https://github.com/hackclub/blossom",
     description:
       "Blossom 🌸 was a full-day hackathon dedicated to empowering young women in technology, led by Sahiti, 17. As the largest gender-focused hackathon in Atlanta, the event collaborated with the Greater Atlanta Girl Scouts. Novice Girl Scouts embarked on an exciting journey, crafting their own PCB keychains and delving into an introduction of JavaScript to code drawings on Blot: Hack Club's Drawing Robot.",
