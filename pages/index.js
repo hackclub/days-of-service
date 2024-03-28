@@ -32,7 +32,7 @@ export default function Home() {
               Days of Service
             </h1>
           //hack club logo
-          </section>
+          /*</section>
           <a
             href="https://hcb.hackclub.com/donations/start/hq"
             target="_blank"
@@ -40,8 +40,8 @@ export default function Home() {
           >
             Support us
           </a>
-          </section>
-          {/* <section className="sm:hidden">
+          </section> */
+          /*{ <section className="sm:hidden">
             <Marquee velocity={10}>
               {photos.map((photo) => (
                 <img
@@ -51,7 +51,7 @@ export default function Home() {
                 />
               ))}
             </Marquee>
-          </section> */}
+          </section> }*/
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">What is Hack Club?</h2>
             <p className="text-lg">
