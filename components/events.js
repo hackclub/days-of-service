@@ -50,7 +50,7 @@ const events = [
   {
     name: "Spark",
     location: "San Francisco, CA",
-    date: "Aug, 2023",
+    date: "August, 2023",
     logo: "https://cloud-g8aj80b0m-hack-club-bot.vercel.app/0image.png",
     github_link: "https://github.com/hackclub/spark",
     description:
@@ -67,7 +67,7 @@ const events = [
   {
     name: "LoneStar",
     location: "San Antonio, TX",
-    date: "Sep, 2023",
+    date: "September, 2023",
     logo: "https://cloud-qklaf9t4y-hack-club-bot.vercel.app/0untitled.png",
     github_link: "https://github.com/hackclub/lonestar",
     description:
@@ -113,7 +113,7 @@ const events = [
       "https://cloud-ozhhfkpwn-hack-club-bot.vercel.app/0img_1709.jpg",
       "https://cloud-l9vmg3n5i-hack-club-bot.vercel.app/0img_5774.jpg",
     ],
-    photocreds: "",
+    photocreds: "Dieter Schoening",
   },
   {
     name: "Think Like a Programmer",
@@ -130,7 +130,7 @@ const events = [
       "https://cloud-r0boefhye-hack-club-bot.vercel.app/07a53b406-6a20-476a-86bc-b2d3f61b4e2f_1_105_c.jpeg",
       "https://cloud-59lgcu2q6-hack-club-bot.vercel.app/0pxl_20240222_153251104.mp.jpg",
     ],
-    photocreds: "",
+    photocreds: "Nila Palmo Ram",
   },
   {
     name: "Blossom",
@@ -150,7 +150,7 @@ const events = [
       "https://cloud-hvi7pz8fo-hack-club-bot.vercel.app/1250a2999.jpg",
       "https://cloud-hhue70g6y-hack-club-bot.vercel.app/4250a3142.jpg",
     ],
-    photocreds: "",
+    photocreds: "Mridha",
   },
   {
     name: "Evergreen",
@@ -168,7 +168,7 @@ const events = [
       "https://cloud-9g8ruabxl-hack-club-bot.vercel.app/0c3155t01.jpg",
       "https://cloud-qqb6qn7y6-hack-club-bot.vercel.app/0c3169t01.jpg",
     ],
-    photocreds: "Alex DeForrest",
+    photocreds: "Alex Deforrest",
   },
 ];
 
