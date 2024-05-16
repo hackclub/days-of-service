@@ -165,7 +165,6 @@ const events = [
       "https://cloud-3va997t84-hack-club-bot.vercel.app/0c3015t01.jpg",
       "https://cloud-6hwq587js-hack-club-bot.vercel.app/0c3029t01.jpg",
       "https://cloud-5r1st9tmg-hack-club-bot.vercel.app/0c3040t01.jpg",
-      "https://cloud-8qvbc50by-hack-club-bot.vercel.app/0250a3003.jpg",
       "https://cloud-9g8ruabxl-hack-club-bot.vercel.app/0c3155t01.jpg",
       "https://cloud-qqb6qn7y6-hack-club-bot.vercel.app/0c3169t01.jpg",
     ],
