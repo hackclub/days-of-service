@@ -120,7 +120,7 @@ export default function Home() {
           </div>
           <div className="bg-[#FEEBEE] col-span-2 sm:col-span-3 rounded-lg hover:scale-[1.03] transition duration-250 ease-in">
             <img
-              src="https://cloud-q1bl0at1m-hack-club-bot.vercel.app/0screenshot_2024-01-16_at_4.04.16_pm.png"
+              src="https://cloud-2groxpatf-hack-club-bot.vercel.app/0screenshot_2024-05-10_at_2.59.04_pm.png"
               className="rounded-lg"
             />
           </div>
