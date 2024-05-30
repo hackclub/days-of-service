@@ -1,3 +1,5 @@
+"use client"
+
 import Marquee from "react-marquee-slider";
 import { events } from "../data/events.js";
 
