@@ -157,7 +157,7 @@ export const events = [
       logo: "https://cloud-p8rgxnzv6-hack-club-bot.vercel.app/0image.png",
       github_link: "https://github.com/hackclub/evergreen",
       description:
-        "Evergreen was Hack Club's 9th Day of Service. We organized a day of coding in partnership with a local school district, the Renton School District!",
+        "Evergreen was Hack Club's 9th Day of Service. We organized a day of coding in partnership with a local school district, the Renton School District! On May 3rd, 2024, our team of 12 Hack Clubbers gathered to host a 1-day hackathon for local students. By the end of the day, we had a variety of projects, such as circuit board designs, 3D modeling mockups, and even generative art that we drew with a robot arm! 🤖🦾"
       photos: [
         "https://cloud-b8dmt3odr-hack-club-bot.vercel.app/0c2999t01.jpg",
         "https://cloud-3va997t84-hack-club-bot.vercel.app/0c3015t01.jpg",
