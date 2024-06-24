@@ -1,27 +1,15 @@
 import Meta from "@hackclub/meta";
 import Events from "../components/events";
 import Head from "next/head";
-// import Marquee from "react-marquee-slider";
-
-// const photos = [
-//   "https://cloud-740uhseap-hack-club-bot.vercel.app/0img_3134.heic",
-//   "https://cloud-aow7za3s6-hack-club-bot.vercel.app/0img_3143.heic",
-//   "https://cloud-lrmxlj4gd-hack-club-bot.vercel.app/0img_6419.jpg",
-//   "https://cloud-e5a0cdvcy-hack-club-bot.vercel.app/0img_6437.jpg",
-//   "https://cloud-740uhseap-hack-club-bot.vercel.app/0img_3134.heic",
-//   "https://cloud-aow7za3s6-hack-club-bot.vercel.app/0img_3143.heic",
-//   "https://cloud-lrmxlj4gd-hack-club-bot.vercel.app/0img_6419.jpg",
-//   "https://cloud-e5a0cdvcy-hack-club-bot.vercel.app/0img_6437.jpg",
-// ];
 
 export default function Home() {
   return (
     <>
       <Meta
-        as={Head} // component to wrap tags in, defaults to React.Fragment
-        name="Hack Club" // site name
-        title="Days Of Service" // page title
-        description="All the info about Hack Club's Days of Service initiative" // page description
+        as={Head}
+        name="Hack Club"
+        title="Days Of Service"
+        description="All the info about Hack Club's Days of Service initiative"
       />
       <main className="lg:min-w-screen font-phantom-sans flex flex-col lg:min-h-screen lg:flex-row">
         <div className="lg:wrapper relative flex flex-col gap-6 bg-[#ec3750] bg-opacity-10 py-10 lg:max-h-screen lg:w-[40vw] lg:overflow-y-scroll">
@@ -32,17 +20,6 @@ export default function Home() {
               Days of Service
             </h1>
           </section>
-          {/* <section className="sm:hidden">
-            <Marquee velocity={10}>
-              {photos.map((photo) => (
-                <img
-                  key={photo}
-                  className="mr-2 h-full w-[150px] object-contain"
-                  src={photo}
-                />
-              ))}
-            </Marquee>
-          </section> */}
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">What is Hack Club?</h2>
             <p className="text-lg">
@@ -71,39 +48,46 @@ export default function Home() {
             <h2 className="text-lg text-[#ec3750]">Overview</h2>
 
             <p className="text-lg pb-3">
-              Days of Service is Hack Club’s initiative to support girls learning to code.
+              Days of Service is Hack Club’s initiative to support girls
+              learning to code.
             </p>
-            
+
             <p className="text-lg pb-3">
               Working with local youth organizations, high school Hack Club
-              leaders run one-day coding
-              events (a day of service) that help girls and gender minorities write their first lines of code.  They might build their first ever
-              website, video game, application and even code a robot arm to draw! 
+              leaders run one-day coding events (a day of service) that help
+              girls and gender minorities write their first lines of code. They
+              might build their first ever website, video game, application and
+              even code a robot arm to draw!
             </p>
             <p className="text-lg">
-            Built for beginners learning to code, girls are supported by experienced Hack Clubbers. By
-              the end of the day, every single participant builds
-              something with code. In 2023, Hack Club girls ran Days of Service 6 cities, and in 2024 they'll increase events to more than 10 cities.  
+              Built for beginners learning to code, girls are supported by
+              experienced Hack Clubbers. By the end of the day, every single
+              participant builds something with code. In 2023, Hack Club girls
+              ran Days of Service 6 cities, and in 2024 they'll increase events
+              to more than 10 cities.
             </p>
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10 relative">
             <quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
-              There were two amazing aspects to this event: 1) Girls are being taught by other girls, and I believe 
-              that <i>when girls see it, they can be it.</i> 2) Most of the time our girls are learning foundational coding, 
-              but in this experience, we saw the girls taking an opportunity to incorporate their creative voice within 
-              their projects. 
+              There were two amazing aspects to this event: 1) Girls are being
+              taught by other girls, and I believe that{" "}
+              <i>when girls see it, they can be it.</i> 2) Most of the time our
+              girls are learning foundational coding, but in this experience, we
+              saw the girls taking an opportunity to incorporate their creative
+              voice within their projects.
               <span className="text-[#ec3750]">”</span>
             </quote>
             — Anna Marie Leidelmeijer
-              <br /> Program Specialist, Girl Scouts of Greater LA
+            <br /> Program Specialist, Girl Scouts of Greater LA
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10 relative">
             <quote className="text-lg before:content-[''] before:absolute before:bg-cover before:-top-2 before:left-6 before:opacity-40 before:z-0 before:w-7 before:h-7 before:bg-[url('https://icons.hackclub.com/api/icons/0xec3750/glyph:quote.svg')]">
-              It was a magical day! We hope we can work with you again in the future.
+              It was a magical day! We hope we can work with you again in the
+              future.
               <span className="text-[#ec3750]">”</span>
             </quote>
-            - Jennifer LeValley 
-             <br /> Program Specialist, Girl Scouts of Eastern Massachusetts
+            - Jennifer LeValley
+            <br /> Program Specialist, Girl Scouts of Eastern Massachusetts
           </section>
           <section className="flex flex-col gap-2 px-4 lg:px-10">
             <h2 className="text-lg text-[#ec3750]">
@@ -137,13 +121,17 @@ export default function Home() {
                 </tr>
                 <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
                   <td className="text-zinc-500 float-left text-sm">10am</td>
-                  <td>Opening and pick a track <span className="bold italic text-[#ec3750]">(Design a Website OR Build a Game OR Create a circuit board)</span></td>
+                  <td>
+                    Opening and pick a track{" "}
+                    <span className="bold italic text-[#ec3750]">
+                      (Design a Website OR Build a Game OR Create a circuit
+                      board)
+                    </span>
+                  </td>
                 </tr>
                 <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
                   <td className="text-zinc-500 float-left text-sm">10:30am</td>
-                  <td>
-                    Workshops: Learn all you need to build
-                  </td>
+                  <td>Workshops: Learn all you need to build</td>
                 </tr>
                 <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
                   <td className="text-zinc-500 float-left text-sm">12:30pm</td>
@@ -151,9 +139,7 @@ export default function Home() {
                 </tr>
                 <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">
                   <td className="text-zinc-500 float-left text-sm">1pm</td>
-                  <td>
-                    Work on your project with mentors
-                  </td>
+                  <td>Work on your project with mentors</td>
                   {/* <caption className="after: opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400"></caption> */}
                 </tr>
                 <tr className="relative after:opacity-50 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1 after:border after:border-l-0 after:border-r-0 after:border-b-0 after:border-t-[0.3px] after:border-zinc-400">

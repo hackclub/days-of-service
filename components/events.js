@@ -1,4 +1,4 @@
-import Marquee from "react-marquee-slider";
+"use client"
 
 const events = [
   {
@@ -172,11 +172,13 @@ const events = [
   },
 ];
 
+import Marquee from "react-marquee-slider";
+import { events } from "../data/events.js";
+
 export default function Events() {
   return (
     <div className="flex flex-col gap-2">
-      {events
-        .reverse()
+      {events.reverse()
         .map(
           ({
             name,
