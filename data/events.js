@@ -86,7 +86,7 @@ export const events = [
       logo: "https://cloud-8ln3q443h-hack-club-bot.vercel.app/0screenshot_20231001_190552_penup_2.jpg_10-18-56-737.jpg",
       github_link: "https://github.com/hackclub/harvest",
       description:
-        "Harvest was a halloween themed social coding event in Burlington! Students got together to build their first website and games on Hack Club's Sprig engine and fulled themselves on halloween candy!",
+        "Harvest was a halloween themed social coding event in Burlington! Students got together to build their first website and games on Hack Club's Sprig engine and filled themselves on halloween candy!",
       photos: [
         "https://cloud-740uhseap-hack-club-bot.vercel.app/0img_3134.heic",
         "https://cloud-aow7za3s6-hack-club-bot.vercel.app/0img_3143.heic",
