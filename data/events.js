@@ -168,4 +168,38 @@ export const events = [
       ],
       photocreds: "Alex Deforrest",
     },
+    {
+      name: "Oasis",
+      location: "Austin, TX",
+      date: "June, 2024",
+      logo: "https://cloud-c1iyws9yp-hack-club-bot.vercel.app/0light_orange_beach_club_recreation_logo.png",
+      github_link: "https://github.com/hackclub/oasis",
+      description:
+        "Oasis had 25 students across Girl Scouts of Central Texas, Girls Who Code, and local schools + 7 hack club mentors from across the nation came together for an inspirational weekend",
+      photos: [
+        "https://cloud-412dh9e28-hack-club-bot.vercel.app/0p1040831.jpg",
+        "https://cloud-4m1ukijqt-hack-club-bot.vercel.app/0p1040798.jpg",
+        "https://cloud-1rg2kvem7-hack-club-bot.vercel.app/0p1050056.jpg",
+        "https://cloud-8ppy2u68n-hack-club-bot.vercel.app/0p1050067.jpg",
+        "https://cloud-am9hno1xu-hack-club-bot.vercel.app/0p1050074.jpg",
+      ],
+      photocreds: "Anahitaa Malhotra",
+    },
+    {
+      name: "Solstice",
+      location: "Chicago, IL",
+      date: "June, 2024",
+      logo: "https://cloud-nulm1wq83-hack-club-bot.vercel.app/0img_0754.png",
+      github_link: "https://github.com/hackclub/solstice",
+      description:
+        "Solstice was a social coding event open to all middle and high school students from the Boys and Girls Club of Lake County",
+      photos: [
+        "https://cloud-nulm1wq83-hack-club-bot.vercel.app/0img_0754.png",
+        "https://cloud-2i9tgp21k-hack-club-bot.vercel.app/0p1050166.jpg",
+        "https://cloud-oxwru90lz-hack-club-bot.vercel.app/0p1050175.jpg",
+        "https://cloud-jp4cvu720-hack-club-bot.vercel.app/0p1050224.jpg",
+        "https://cloud-gb0j5ly1z-hack-club-bot.vercel.app/0p1050418.jpg",
+      ],
+      photocreds: "Sophia Deltas",
+    },
   ];
