@@ -194,7 +194,6 @@ export const events = [
       description:
         "Solstice was a social coding event open to all middle and high school students from the Boys and Girls Club of Lake County",
       photos: [
-        "https://cloud-nulm1wq83-hack-club-bot.vercel.app/0img_0754.png",
         "https://cloud-2i9tgp21k-hack-club-bot.vercel.app/0p1050166.jpg",
         "https://cloud-oxwru90lz-hack-club-bot.vercel.app/0p1050175.jpg",
         "https://cloud-jp4cvu720-hack-club-bot.vercel.app/0p1050224.jpg",
