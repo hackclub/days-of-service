@@ -37,11 +37,11 @@ export default function Home() {
           </section>
           {/* <section className="flex flex-col content-end justify-end px-4 lg:px-10"> */}
           <a
-            href="https://hcb.hackclub.com/donations/start/hq"
+            href="https://days-of-service.hackclub.dev/code"
             target="_blank"
             className="right-5 top-5 rounded-lg bg-[#ec3750] px-3 py-1 text-center text-xl font-medium text-white absolute md:px-6 md:py-3 md:right-10 md:top-10"
           >
-            Support us
+            Join Us
           </a>
           {/* </section> */}
           <section className="flex flex-col gap-2 px-4 lg:px-10">
@@ -165,8 +165,8 @@ export default function Home() {
             />
             <h2 className="text-lg text-[#ec3750]">
               Interested in running a day of service? <br /> Please reach us at{" "}
-              <a href="mailto:nila@hackclub.com" className="underline">
-                nila@hackclub.com
+              <a href="mailto:zenab@hackclub.com" className="underline">
+                zenab@hackclub.com
               </a>
             </h2>
           </section>

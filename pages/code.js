@@ -110,9 +110,9 @@ export default function Home() {
               </p>
               <br />
               <p>
-              Email me at{" "}
-              <a href="mailto:nila@hackclub.com" className="underline">
-                nila@hackclub.com
+              Email us at{" "}
+              <a href="mailto:zenab@hackclub.com" className="underline">
+                zenab@hackclub.com
               </a>
               </p>
               <i>P.S. If you are interested in hosting a Days of Service, please reach out too! </i>
