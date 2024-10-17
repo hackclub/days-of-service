@@ -165,8 +165,8 @@ export default function Home() {
             />
             <h2 className="text-lg text-[#ec3750]">
               Interested in running a day of service? <br /> Please reach us at{" "}
-              <a href="mailto:nila@hackclub.com" className="underline">
-                nila@hackclub.com
+              <a href="mailto:zenab@hackclub.com" className="underline">
+                zenab@hackclub.com
               </a>
             </h2>
           </section>
