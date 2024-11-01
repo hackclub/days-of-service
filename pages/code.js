@@ -97,7 +97,7 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-bold">Coding at Hack Club:</h3>
               <p>
-                Hey I'm Nila! I'm 18 and I absolutely love coding and am all about making
+                Hey I'm Nila! I'm 19 and I absolutely love coding and am all about making
                 tech awesome while experimenting with how to keep it ethical and
                 humanistic. At Hack Club, I help run the Days of Service
                 program! My favorite aspect of Days of Services is that I get to
