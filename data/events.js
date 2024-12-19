@@ -201,4 +201,68 @@ export const events = [
       ],
       photocreds: "Sophia Deltas",
     },
+    {
+      name: "Golden",
+      location: "Oakland, CA",
+      date: "September, 2024",
+      logo: "https://i.imgur.com/P1JHtWa.png",
+      github_link: "https://github.com/hackclub/golden",
+      description:
+        "In partnership with Code Next and local organizations, Golden welcomed girls and nonbinary high school students from the Bay Area for a day of building, exploring, and sharing.",
+      photos: [
+        "https://i.imgur.com/EQmavMh.jpeg",
+        "https://i.imgur.com/l4YjsPy.jpeg",
+        "https://i.imgur.com/2YEVIKp.jpeg",
+        "https://i.imgur.com/XsTaXNt.jpeg",
+      ],
+      photocreds: "Fiona Yang",
+    },
+     {
+      name: "Luna",
+      location: "New York, NY",
+      date: "October, 2024",
+      logo: "https://i.imgur.com/JwGHxie.png",
+      github_link: "https://github.com/hackclub/luna",
+      description:
+        "Hosted at Civic Hall, Luna was a 12-hour hackathon, held in collaboration with Girls Who Code, where over 40 girls and gender-nonconforming youth from New York and New Jersey coded, learned new skills, and had fun while collaborating on projects.",
+      photos: [
+        "https://i.imgur.com/IQhjbrR.jpeg",
+        "https://i.imgur.com/NZs9ycs.jpeg",
+        "https://i.imgur.com/41LUkQB.jpeg",
+        "https://i.imgur.com/UarEFIP.jpeg",
+      ],
+      photocreds: "Anvitha Vemula",
+    },
+    {
+      name: "Celestial",
+      location: "New York, NY",
+      date: "October, 2024",
+      logo: "https://i.imgur.com/JwGHxie.png",
+      github_link: "https://github.com/hackclub/celestial",
+      description:
+        "Hosted at Shopify, Celestial brought together girls and non-binary youth from across Toronto and the Greater Toronto Area for an inspiring day of hands-on coding.",
+      photos: [
+        "https://i.imgur.com/WMY0IpD.jpeg",
+        "https://i.imgur.com/qMvn1xw.jpeg",
+        "https://i.imgur.com/5ecwELE.jpeg",
+        "https://i.imgur.com/enhZaJu.jpeg",
+      ],
+      photocreds: "Luning Wang",
+    },
+    {
+      name: "Ascend",
+      location: "Los Angeles, California",
+      date: "November, 2024",
+      logo: "https://i.imgur.com/vXibcmA.jpeg",
+      github_link: "https://github.com/hackclub/ascend",
+      description:
+        "Ascend was Hack Club's first-ever Days of Service Summit! Held in Los Angeles, this event brought together 50 girls and non-binary Hack Club members from across the U.S. and internationally for a hackathon hosted at SpaceX, along with a weekend filled with fun and growth. This summit became the largest teenage girl hackathon in the U.S. this year, in partnership with Girls Who Code and Kode with Klossy.",
+      photos: [
+        "https://i.imgur.com/MR63qHd.jpeg",
+        "https://i.imgur.com/4YzuQTn.jpeg",
+        "https://i.imgur.com/l3X99dF.jpeg",
+        "https://i.imgur.com/A4pRFOv.jpeg",
+      ],
+      photocreds: "Ascend Team",
+    },
   ];
