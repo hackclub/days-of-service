@@ -15,6 +15,12 @@ Hack Clubbers sharing their love and passion for coding with gender minorities f
 | Feb 2024 | Boston, MA | [Think Like A Programmer]() |
 | Mar 2024 | Atlanta, GA | [Blossom 🌸](https://github.com/hackclub/blossom)|
 | May 2024 | Seattle, WA | [Evergreen 🌲](https://github.com/hackclub/evergreen)|
+| June 2024 | Austin, TX | [Oasis 🌴](https://github.com/hackclub/oasis) |
+| June 2024 | Chicago, IL | [Solstice ‭🌑 ](https://github.com/hackclub/solstice) |
+| Sep 2024 | Oakland, CA | [Golden ✨](https://github.com/hackclub/golden) |
+| Oct 2024 | New York City, NY | [Luna 🌙 ](https://luna.hackclub.com) | 
+| Oct 2024 | Toronto, Canada | [Celestial 🪐](https://github.com/emma-x1/Toronto-DoS-Celestial) | 
+| Nov 2024 | Los Angeles, CA | [Ascend 🚀](https://ascend.hackclub.com) |
 
 ## In this repo:
 
