@@ -4,7 +4,7 @@ import Head from "next/head";
 
 const redirectBanner = 
 <div className='z-[99999] h-7 w-full  absolute top-0 bg-[#ec3750] text-center text-lg text-white font-medium font-phantom-sans'>
-  Days Of Service is now Athena! Visit the new Athena site {''}
+  Days of Service is now Athena! Visit the new Athena site {''}
   <a
     className="underline decoration-white hover:decoration-wavy"
     href="https://athena.hackclub.com"
