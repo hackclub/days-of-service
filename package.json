@@ -17,6 +17,7 @@
     "react-icons": "^4.10.1",
     "react-marquee-slider": "^1.1.5",
     "react-wrap-balancer": "^1.1.0",
+    "styled-components": "^6.1.15",
     "swr": "^2.2.2"
   },
   "devDependencies": {
