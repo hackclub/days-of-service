@@ -2,6 +2,17 @@ import Meta from "@hackclub/meta";
 import Events from "../components/events";
 import Head from "next/head";
 
+const redirectBanner = 
+<div className='py-1 px-3 w-full bg-[#ec3750] text-center text-lg text-white font-medium font-phantom-sans'>
+  Days of Service is now <i>Athena</i>! Visit our new site {''}
+  <a
+    className="underline decoration-white hover:decoration-wavy"
+    href="https://athena.hackclub.com"
+  >
+    here
+  </a>.
+</div>
+
 export default function Home() {
   return (
     <>
@@ -11,6 +22,7 @@ export default function Home() {
         title="Days Of Service"
         description="All the info about Hack Club's Days of Service initiative"
       />
+      {redirectBanner}
       <main className="lg:min-w-screen font-phantom-sans flex flex-col lg:min-h-screen lg:flex-row">
         <div className="lg:wrapper relative flex flex-col gap-6 bg-[#ec3750] bg-opacity-10 py-10 lg:max-h-screen lg:w-[40vw] lg:overflow-y-scroll">
           <section className="flex flex-col content-end justify-end px-4 lg:px-10">
